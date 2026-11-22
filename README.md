@@ -4,7 +4,7 @@ This repository holds the **preprocessing pipeline** that turns the credentialed
 
 A companion repository, [pic-foundations-analysis](https://github.com/mvinai/pic-foundations-analysis), holds stages 09–18 (spectral diagnostics, models, attribution, and the desktop sensitivity runs).
 
-**Authors.** Vinai (principal investigator), with contributions from Habib, Vinay and Yashwant. Scripts were written with AI assistance and validated on synthetic data before any real PIC run.
+**Authors.** Vinai Modem (principal investigator), with contributions from Habib Fipa, Vinay Datta Ilapuram and Yashwant Bunga. Scripts were written with AI assistance and validated on synthetic data before any real PIC run.
 
 This repository is released under the MIT License. Copyright (c) 2026 Vinai Modem. See [`LICENSE`](LICENSE).
 
