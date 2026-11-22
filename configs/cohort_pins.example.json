@@ -1,0 +1,22 @@
+{
+  "_comment": "Copy this file to cohort_pins.json (gitignored) and fill in the frozen pins from your local project before a real PIC run. Values are omitted from the public repository under the PhysioNet DUA. SHA-256 hashes of pinned inputs stay in the scripts; only cohort, split, eligibility, death and raw-table row counts belong here.",
+  "encounters": null,
+  "subjects": null,
+  "died": null,
+  "splits": {"train": null, "validation": null, "test": null},
+  "eligible": {
+    "24": null, "48": null, "72": null, "96": null, "120": null, "144": null,
+    "168": null, "192": null, "216": null, "240": null, "264": null, "288": null,
+    "312": null, "336": null
+  },
+  "raw_table_rows": {
+    "PATIENTS": null,
+    "ADMISSIONS": null,
+    "ICUSTAYS": null,
+    "SURGERY_INFO": null,
+    "CHARTEVENTS": null,
+    "LABEVENTS": null,
+    "PRESCRIPTIONS": null,
+    "MICROBIOLOGYEVENTS": null
+  }
+}

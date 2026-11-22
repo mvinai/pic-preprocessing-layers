@@ -1,0 +1,9 @@
+# Versions used for the released analysis runs (Python 3.14 environment).
+# The public test suite is also expected to run on a nearby CPU-only stack.
+numpy==2.4.2
+pandas==3.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+torch==2.10.0
+pytest>=8.0

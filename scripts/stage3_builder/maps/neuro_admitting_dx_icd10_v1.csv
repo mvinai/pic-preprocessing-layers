@@ -1,0 +1,68 @@
+icd10_3char,label,domain,status,match_rule,reason
+A17,Tuberculosis of nervous system,cns_infection,include,3-character prefix,kept by Vinai
+A39,Meningococcal infection,cns_infection,partial,3-character prefix,kept by Vinai including the whole category; caveat: includes meningococcaemia without meningitis (A39.2-A39.4)
+A80,Acute poliomyelitis,cns_infection,include,3-character prefix,kept by Vinai
+A81,Atypical virus infections of CNS,cns_infection,include,3-character prefix,kept by Vinai
+A83,Mosquito-borne viral encephalitis,cns_infection,include,3-character prefix,kept by Vinai; includes Japanese encephalitis
+A84,Tick-borne viral encephalitis,cns_infection,include,3-character prefix,kept by Vinai
+A85,"Other viral encephalitis, NEC",cns_infection,include,3-character prefix,kept by Vinai; includes enteroviral encephalitis
+A86,Unspecified viral encephalitis,cns_infection,include,3-character prefix,kept by Vinai
+A87,Viral meningitis,cns_infection,include,3-character prefix,kept by Vinai
+A88,"Other viral infections of CNS, NEC",cns_infection,include,3-character prefix,kept by Vinai
+A89,Unspecified viral infection of CNS,cns_infection,include,3-character prefix,kept by Vinai
+G00,"Bacterial meningitis, NEC",cns_infection,include,3-character prefix,kept by Vinai
+G01,Meningitis in bacterial diseases classified elsewhere,cns_infection,include,3-character prefix,kept by Vinai
+G02,Meningitis in other infectious and parasitic diseases,cns_infection,include,3-character prefix,kept by Vinai
+G03,Meningitis due to other and unspecified causes,cns_infection,include,3-character prefix,kept by Vinai
+G04,"Encephalitis, myelitis and encephalomyelitis",cns_infection,include,3-character prefix,kept by Vinai; includes ADEM (G04.0)
+G05,"Encephalitis, myelitis and encephalomyelitis in diseases classified elsewhere",cns_infection,include,3-character prefix,kept by Vinai
+G06,Intracranial and intraspinal abscess and granuloma,cns_infection,include,3-character prefix,kept by Vinai
+G07,Intracranial and intraspinal abscess in diseases classified elsewhere,cns_infection,include,3-character prefix,kept by Vinai
+G08,Intracranial and intraspinal phlebitis and thrombophlebitis,cns_infection,include,3-character prefix,kept by Vinai
+G09,Sequelae of inflammatory diseases of CNS,cns_infection,include,3-character prefix,kept by Vinai
+S02,Fracture of skull and facial bones,tbi,partial,3-character prefix,kept by Vinai including the whole category; caveat: includes facial fractures (S02.2-S02.6)
+S06,Intracranial injury,tbi,include,3-character prefix,kept by Vinai
+S07,Crushing injury of head,tbi,include,3-character prefix,kept by Vinai
+S09,Other and unspecified injuries of head,tbi,partial,3-character prefix,kept by Vinai including the whole category; caveat: mostly minor head injuries
+T90,Sequelae of injuries of head,tbi,include,3-character prefix,kept by Vinai
+G40,Epilepsy,seizure,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+G41,Status epilepticus,seizure,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+R56,"Convulsions, NEC",seizure,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy; draft note: includes febrile convulsions (R56.0)"
+P90,Convulsions of newborn,seizure,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+G91,Hydrocephalus,hydrocephalus_malformation,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+Q03,Congenital hydrocephalus,hydrocephalus_malformation,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+Q01,Encephalocele,hydrocephalus_malformation,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+Q04,Other congenital malformations of brain,hydrocephalus_malformation,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+Q05,Spina bifida,hydrocephalus_malformation,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy; draft note: spinal; often with hydrocephalus (Q05.0-Q05.4)"
+Q07,Other congenital malformations of nervous system,hydrocephalus_malformation,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy; draft note: includes Arnold-Chiari (Q07.0)"
+C70,Malignant neoplasm of meninges,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+C71,Malignant neoplasm of brain,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+C72,"Malignant neoplasm of spinal cord, cranial nerves and other CNS",cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+C75,Malignant neoplasm of other endocrine glands,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy; draft note: pituitary, craniopharyngeal duct, pineal (C75.1-C75.3) are intracranial; parathyroid/carotid body are not"
+D32,Benign neoplasm of meninges,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+D33,Benign neoplasm of brain and other parts of CNS,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+D35,Benign neoplasm of other endocrine glands,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy; draft note: pituitary/craniopharyngioma/pineal (D35.2-D35.4) only"
+D43,Neoplasm of uncertain behaviour of brain and CNS,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy"
+D44,Neoplasm of uncertain behaviour of endocrine glands,cns_tumour,exclude,,"excluded by Vinai (Nov 14, 2026): seizures, CNS tumours and hydrocephalus/malformations don't typically require osmotherapy; draft note: pituitary/craniopharyngeal/pineal (D44.3-D44.5) only"
+I60,Subarachnoid haemorrhage,cerebrovascular,include,3-character prefix,kept by Vinai
+I61,Intracerebral haemorrhage,cerebrovascular,include,3-character prefix,kept by Vinai
+I62,Other nontraumatic intracranial haemorrhage,cerebrovascular,include,3-character prefix,kept by Vinai
+I63,Cerebral infarction,cerebrovascular,include,3-character prefix,kept by Vinai
+I64,"Stroke, not specified as haemorrhage or infarction",cerebrovascular,include,3-character prefix,kept by Vinai
+I67,Other cerebrovascular diseases,cerebrovascular,include,3-character prefix,"kept by Vinai; includes moyamoya (I67.5), hypertensive encephalopathy (I67.4)"
+I69,Sequelae of cerebrovascular disease,cerebrovascular,include,3-character prefix,kept by Vinai
+G45,Transient cerebral ischaemic attacks,cerebrovascular,include,3-character prefix,kept by Vinai
+G46,Vascular syndromes of brain in cerebrovascular diseases,cerebrovascular,include,3-character prefix,kept by Vinai
+P52,Intracranial nontraumatic haemorrhage of newborn,cerebrovascular,include,3-character prefix,kept by Vinai
+Q28,Other congenital malformations of circulatory system,cerebrovascular,partial,4-character prefix Q28.2 or Q28.3 only,brain AVM / cerebral vessel malformation only (Vinai: Q28 brain AVM only)
+G92,Toxic encephalopathy,encephalopathy,include,3-character prefix,kept by Vinai
+G93,Other disorders of brain,encephalopathy,include,3-character prefix,"kept by Vinai; anoxic brain damage, benign intracranial hypertension, encephalopathy, cerebral oedema, Reye syndrome"
+P91,Other disturbances of cerebral status of newborn,encephalopathy,include,3-character prefix,kept by Vinai; includes neonatal HIE / cerebral ischaemia
+G36,Other acute disseminated demyelination,encephalopathy,include,3-character prefix,kept by Vinai
+G37,Other demyelinating diseases of CNS,encephalopathy,include,3-character prefix,kept by Vinai
+R40,"Somnolence, stupor and coma",encephalopathy,partial,3-character prefix,kept by Vinai including the whole category; caveat: symptom code; coma of unknown cause
+G61,Inflammatory polyneuropathy (incl. Guillain-Barre),neuromuscular,exclude,,neuromuscular/peripheral or chronic condition; osmotherapy not indicated (draft exclusion kept by Vinai)
+G70,Myasthenia gravis and other myoneural disorders,neuromuscular,exclude,,neuromuscular/peripheral or chronic condition; osmotherapy not indicated (draft exclusion kept by Vinai)
+G12,Spinal muscular atrophy,neuromuscular,exclude,,neuromuscular/peripheral or chronic condition; osmotherapy not indicated (draft exclusion kept by Vinai)
+G71,Primary disorders of muscles,neuromuscular,exclude,,neuromuscular/peripheral or chronic condition; osmotherapy not indicated (draft exclusion kept by Vinai)
+G80,Cerebral palsy,other_cns,exclude,,neuromuscular/peripheral or chronic condition; osmotherapy not indicated (draft exclusion kept by Vinai)

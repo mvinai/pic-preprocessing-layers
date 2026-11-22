@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "PIC preprocessing and three-layer feature build"
+type: software
+license: MIT
+repository-code: "https://github.com/mvinai/pic-preprocessing-layers"
+authors:
+  - family-names: Modem
+    given-names: Vinai
+    role: "Principal investigator"
+  - name: Habib
+    role: "Contributor"
+  - name: Vinay
+    role: "Contributor"
+  - name: Yashwant
+    role: "Contributor"
+keywords:
+  - paediatric intensive care
+  - PIC
+  - feature construction
+  - machine learning

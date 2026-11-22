@@ -1,0 +1,2 @@
+subtree,reason
+/drug_groups/nmb/validation/strata/surgical_status,"v1.2 release run: 2 cells under this subtree cannot be protected (fixed by frozen cells, links or constants). Decision (Vinai, 2026-11-16): drop the surgical_status strata for NMB on the validation split from the v1.0.2 release as a whole subtree; keep the total"

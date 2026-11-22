@@ -1,0 +1,233 @@
+{
+  "generator": "make_synthetic_svd_dataset.py",
+  "generator_sha256": "5240655d149a4afba0a1803a6e798d56eb65f0ae5c6ffb5a9f8a2ef1106864b8",
+  "seed": 20261115,
+  "n_subjects": 15000,
+  "n_encounters": 17239,
+  "n_invalid_dob": 103,
+  "dob_status_counts": {
+    "valid": 17136,
+    "negative": 61,
+    "unparseable": 21,
+    "missing": 21
+  },
+  "neg_bin_counts": {
+    "lt1d": 21,
+    "gt30d": 20,
+    "1to30d": 20
+  },
+  "vitals_step_hours": 4.0,
+  "event_horizon_hours": 36.0,
+  "raw_bytes": 81494852,
+  "raw_files": {
+    "ADMISSIONS.csv": {
+      "rows": 17239,
+      "bytes": 1404291,
+      "sha256": "e4bffcc0243213a1b844ebc626dd233bf8d85d0c13bb08013b310c4996e1ef26"
+    },
+    "CHARTEVENTS.csv": {
+      "rows": 1090738,
+      "bytes": 55373029,
+      "sha256": "eb17757dd92a09b3188ae936495444dddf29b5a19fe6913868ba06dfe1a50776"
+    },
+    "D_ITEMS.csv": {
+      "rows": 13,
+      "bytes": 257,
+      "sha256": "b581474cf4850a08a5c9e1bd33c674bf111861a633c36aae826e158a1dfeaaec"
+    },
+    "D_LABITEMS.csv": {
+      "rows": 17,
+      "bytes": 343,
+      "sha256": "53abfe6619836fc0183dc9b5a0d96acd5928481861386b8c65e6dfd34c897762"
+    },
+    "ICUSTAYS.csv": {
+      "rows": 17239,
+      "bytes": 1230165,
+      "sha256": "794d4cb2a3a8030db680875a044435421cd85139e1ac891e2d82030e3e2123b4"
+    },
+    "INPUTEVENTS.csv": {
+      "rows": 1,
+      "bytes": 48,
+      "sha256": "6d2203e74a1bb3b6076600704c3077caa0aa73d14d368f8414cd5c08a008978b"
+    },
+    "LABEVENTS.csv": {
+      "rows": 305414,
+      "bytes": 15978772,
+      "sha256": "9b3cc4042608bbc1498542fd65cd9e35dcc68885bf20980dbe6989fd78a8c424"
+    },
+    "MICROBIOLOGYEVENTS.csv": {
+      "rows": 4278,
+      "bytes": 424492,
+      "sha256": "855d9670fcd9a8e63e4164d9ddccd6a5bbac770b01dd44aeb63137a54af1d867"
+    },
+    "OUTPUTEVENTS.csv": {
+      "rows": 1,
+      "bytes": 56,
+      "sha256": "0d207d9b14c6cd2a40edfda61c1015e997025580fa401cd98ecfa47e6776152f"
+    },
+    "PATIENTS.csv": {
+      "rows": 15000,
+      "bytes": 528309,
+      "sha256": "75fa3a44439d317f2d9212b2c7bdaf7f964506d2f65e16afb495521a25d3eade"
+    },
+    "PRESCRIPTIONS.csv": {
+      "rows": 39487,
+      "bytes": 3081227,
+      "sha256": "b7e53ac5b4fcbd2fea51827b716b7ac6bac69e38d4965abb100d43db72f8ed98"
+    },
+    "SURGERY_INFO.csv": {
+      "rows": 3072,
+      "bytes": 428419,
+      "sha256": "96d995ed3322a6b026b8868b0d1e416e180d62b21ce3ecb9aec71566b1e788b1"
+    },
+    "canonical_icu_encounters.csv": {
+      "rows": 17239,
+      "bytes": 1327468,
+      "sha256": "5f3f7d04c4d4dec011ea10c7d22c8734c7a246779d4ee4688a5bb5e184bb74f7"
+    },
+    "drug_group_map_v1.csv": {
+      "rows": 9,
+      "bytes": 970,
+      "sha256": "564f19d803a324e82483840bd5366ab206c2a1fcee588f7dc13be33f9b1b6e41"
+    },
+    "encounter_harmonization_fields.csv": {
+      "rows": 17239,
+      "bytes": 1503273,
+      "sha256": "40c95dc0b07848e43911a24a52baab215bd29da1aba73638cff94c5e7236baf2"
+    },
+    "feature_channel_map_v1.csv": {
+      "rows": 33,
+      "bytes": 5238,
+      "sha256": "e452a6f14d10a295bfec446755a80ac910906c852ff621f16e8bad2551aab2a7"
+    },
+    "neuro_admitting_dx_icd10_v1.csv": {
+      "rows": 6,
+      "bytes": 352,
+      "sha256": "2671a51ce09588eebbfd6926059d3ea0e3a73543bb71808fd9b61fd7d1d47ead"
+    },
+    "organism_map_v1.csv": {
+      "rows": 5,
+      "bytes": 495,
+      "sha256": "596a26798ea04462e043a6ba572489b041d01c0f7c2ae23fe310f0a24f84bbe8"
+    },
+    "specimen_map_v1.csv": {
+      "rows": 5,
+      "bytes": 529,
+      "sha256": "67c5f9417c8439992b4656a2db9f6e7587451d0938101ddaa4926ed62cf456f7"
+    },
+    "subject_splits.csv": {
+      "rows": 15000,
+      "bytes": 206701,
+      "sha256": "7632b682ff004ff4d8536c01183cb3a4c152e452217f2e870fd79dd8fea91c19"
+    },
+    "surgery_complexity_map_v1.csv": {
+      "rows": 4,
+      "bytes": 418,
+      "sha256": "48e392cc6461b91772eec2b3597a32edfae66f5c49f8963475682dff395aaa4f"
+    }
+  },
+  "n_observations_long": 1586573,
+  "n_medications_long": 39487,
+  "svd_verification": {
+    "n_encounters": 17239,
+    "n_features": 25,
+    "singular_values_top10": [
+      335.3553661865048,
+      286.3299142532498,
+      227.65742331578275,
+      131.43900530411332,
+      130.89421615000197,
+      129.92732736820588,
+      128.75528080704868,
+      121.66590711427207,
+      118.75217266508221,
+      109.744424599751
+    ],
+    "variance_explained_top10": [
+      0.2872579772215103,
+      0.20940884634277204,
+      0.13238086361583593,
+      0.04412757943769626,
+      0.043762537027589414,
+      0.04311839511283333,
+      0.04234398026007761,
+      0.037809364234363374,
+      0.03602008273864893,
+      0.03076284585863415
+    ],
+    "variance_explained_top3_sum": 0.6290476871801183,
+    "gap_sv3_over_sv4": 1.7320385435742363,
+    "procrustes_cosine_similarity": {
+      "z_severity": 0.9767910145989886,
+      "z_respiratory": 0.9993274977160893,
+      "z_age": 0.9908344045663007
+    },
+    "principal_angles_degrees": [
+      1.7391553978892345,
+      2.244288612406206,
+      14.492451403030904
+    ]
+  },
+  "beta_raw_scale": {
+    "lactate_sev": 1.05,
+    "creatinine_sev": 28.0,
+    "hr_sev": 14.0,
+    "map_sev": -8.0,
+    "sbp_sev": -8.0,
+    "dbp_sev": -5.0,
+    "vaso_logit_intercept": -1.15,
+    "vaso_logit_sev": 1.55,
+    "spo2_resp": -3.8,
+    "po2_resp": -22.0,
+    "fio2_resp": 16.0,
+    "rr_resp": 7.0,
+    "weight_log_age": 0.1
+  },
+  "noise_sd": {
+    "hr": 5.0,
+    "rr": 2.5,
+    "sbp": 6.0,
+    "dbp": 5.0,
+    "spo2": 1.4,
+    "temp": 0.28,
+    "lactate": 0.22,
+    "creatinine": 8.0,
+    "po2": 8.0,
+    "fio2": 3.5,
+    "weight_log": 0.06,
+    "glucose": 0.8,
+    "sodium": 3.0,
+    "hemoglobin": 8.0,
+    "magnesium": 0.12,
+    "calcium": 0.15,
+    "urine": 40.0,
+    "intake": 50.0
+  },
+  "svd_columns": [
+    "age_days",
+    "weight_kg",
+    "heart_rate_mean_0_24h",
+    "respiratory_rate_mean_0_24h",
+    "sbp_mean_0_24h",
+    "dbp_mean_0_24h",
+    "map_mean_0_24h",
+    "spo2_mean_0_24h",
+    "fio2_mean_0_24h",
+    "po2_mean_0_24h",
+    "pf_ratio_mean_0_24h",
+    "sf_ratio_mean_0_24h",
+    "lactate_mean_0_24h",
+    "creatinine_mean_0_24h",
+    "vasoactive_exposed_0_24h",
+    "vasoactive_max_concurrent_0_24h",
+    "psofa_resp_0_24h",
+    "temperature_mean_0_24h",
+    "glucose_bedside_mean_0_24h",
+    "sodium_mean_0_24h",
+    "hemoglobin_mean_0_24h",
+    "magnesium_mean_0_24h",
+    "calcium_total_mean_0_24h",
+    "urine_output_mean_0_24h",
+    "fluid_intake_mean_0_24h"
+  ]
+}

@@ -1,0 +1,33 @@
+# Local PIC data and run products (never commit)
+data/
+*_INTERNAL*
+*_raw_LOCAL*
+*.pending-*
+
+# Binary model / array artefacts except any deliberately shipped synthetic fixtures
+*.npz
+*.pkl
+*.pt
+*.pickle
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Local cohort/table-size pins (not shipped)
+configs/cohort_pins.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

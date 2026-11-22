@@ -1,0 +1,165 @@
+threshold,key,level,train_n,median_hours
+10,type:adenoidal hypertrophy melt+tonsillectomy,own_type,S,0.82
+10,type:angiocardiography,own_type,S,0.92
+10,type:anoplasty,own_type,S,0.75
+10,type:asd repair,own_type,S,1.64
+10,type:asd repair+pda repair,own_type,S,1.75
+10,type:asd repair+pda repair+vsd repair,own_type,S,2.12
+10,type:asd repair+pulmonary valve stenosis procedure,own_type,S,1.68
+10,type:asd repair+vsd repair,own_type,S,2.02
+10,"type:asd repair, tee-guided",own_type,S,0.66
+10,type:brain stem tumor resection,own_type,S,3.05
+10,type:cerebellar tumor resection,own_type,S,3.25
+10,type:cerebrovascular malformation resection,own_type,S,2.75
+10,type:cleft palate repair,own_type,S,1.97
+10,type:coarctation repair,own_type,S,3.12
+10,type:colon resection and anastomosis+enterolysis,own_type,S,1.27
+10,type:colon resection and anastomosis+enterolysis+exploratory laparotomy,own_type,S,1.42
+10,type:colon resection and anastomosis+exploratory laparotomy,own_type,S,1.46
+10,type:craniosynostosis restoration,own_type,S,1.78
+10,type:cystoscopy+pyeloplasty+radiography,own_type,S,2.47
+10,type:deep supratentorial lesions resection,own_type,S,2.6
+10,type:deep vein catheterization,own_type,S,0.25
+10,type:depressed skull fracture repair,own_type,S,0.58
+10,type:depressed skull fracture repair+epidural hematoma evacuation,own_type,S,0.8
+10,type:depressed skull fracture repair+intracranial hematoma evacuation,own_type,S,1.18
+10,type:diaphragmatic paralysis surgery,own_type,S,1.07
+10,type:diaphragmatic repair,own_type,S,0.9
+10,type:dsa,own_type,S,0.62
+10,type:enterolysis+enterostomy,own_type,S,1.57
+10,type:enterolysis+enterostomy+exploratory laparotomy,own_type,S,1.46
+10,type:enterostomy,own_type,S,0.8
+10,type:enterostomy+exploratory laparotomy,own_type,S,1.46
+10,type:epidural hematoma evacuation,own_type,S,0.92
+10,type:esophageal atresia repair,own_type,S,2.19
+10,type:exploratory laparotomy,own_type,S,1.43
+10,type:hiatal hernia repair,own_type,S,1.37
+10,type:indwelling of femoral venous puncture,own_type,S,0.18
+10,type:infusion port placement,own_type,S,1.13
+10,type:intestinal atresia repair,own_type,S,1.43
+10,type:intracranial hematoma evacuation,own_type,S,1.11
+10,type:intracranial space-occupying resection,own_type,S,3.0
+10,type:laparoscopic choledochal cyst radical resection,own_type,S,3.05
+10,type:laparoscopic choledochal cyst radical resection+liver biopsy,own_type,S,3.13
+10,type:laparoscopic exploration,own_type,S,1.83
+10,type:laparoscopic ladd procedure,own_type,S,1.48
+10,type:laparoscopic megacolon radical operation,own_type,S,2.05
+10,type:laparoscopic nephrectomy,own_type,S,2.25
+10,type:laparoscopic pelvic tumor resection,own_type,S,1.7
+10,type:laparoscopic pyloromyotomy,own_type,S,0.42
+10,type:mediastinal mass resection,own_type,S,1.07
+10,type:meningocele repair,own_type,S,0.9
+10,type:meningocele repair+tethered cord syndrome surgery,own_type,S,1.43
+10,type:omphalocele repair,own_type,S,0.78
+10,type:palatopharyngoplasty+retropharyngeal flap transplantation,own_type,S,2.35
+10,type:pda repair,own_type,S,0.83
+10,type:pda repair+vsd repair,own_type,S,2.0
+10,type:pfo repair+vsd repair,own_type,S,2.02
+10,type:pilonidal sinus resection+tethered cord syndrome surgery,own_type,S,0.83
+10,type:pulmonary lobectomy,own_type,S,1.13
+10,type:pulmonary stenosis balloon dilatation,own_type,S,0.7
+10,type:rectal biopsy,own_type,S,0.17
+10,type:retropharyngeal flap transplantation,own_type,S,2.07
+10,type:sacrococcygeal teratoma resection,own_type,S,1.9
+10,type:subdural effusion drainage,own_type,S,0.58
+10,type:tapvc repair,own_type,S,3.11
+10,type:tethered cord syndrome surgery,own_type,S,0.95
+10,type:tetralogy of fallot repair,own_type,S,3.0
+10,type:thoracoplasty,own_type,S,0.68
+10,type:transverse colostomy,own_type,S,0.57
+10,type:ventriculoperitoneal shunt,own_type,S,0.63
+10,type:ventriculostomy,own_type,S,1.33
+10,type:ventriculovesicle placement,own_type,S,0.31
+10,type:vsd repair,own_type,502,1.93
+10,"type:vsd repair, tee-guided",own_type,S,0.99
+10,system_x_group:Cardiac x G1,system_x_group,1521,1.92
+10,system_x_group:Cardiac x G2,system_x_group,20,3.92
+10,system_x_group:Cardiac x G3,system_x_group,42,3.08
+10,system_x_group:Cardiac x NC,system_x_group,34,0.75
+10,system_x_group:Craniofacial/ENT/oral x I3,system_x_group,152,1.71
+10,system_x_group:Diagnostic/imaging-interventional x I1,system_x_group,291,0.4
+10,system_x_group:GI/abdominal x I2,system_x_group,348,1.54
+10,system_x_group:GI/abdominal x I3,system_x_group,914,1.42
+10,system_x_group:Hepatobiliary x I2,system_x_group,114,2.88
+10,system_x_group:Hepatobiliary x I3,system_x_group,66,1.98
+10,system_x_group:Neurosurgical x I3,system_x_group,880,1.08
+10,system_x_group:Orthopedic/spine x I3,system_x_group,16,2.32
+10,system_x_group:Other x I1,system_x_group,82,1.04
+10,system_x_group:Thoracic/airway x I2,system_x_group,22,1.27
+10,system_x_group:Thoracic/airway x I3,system_x_group,349,1.02
+10,system_x_group:Urologic/renal x I2,system_x_group,52,2.17
+10,system_x_group:Urologic/renal x I3,system_x_group,127,2.63
+10,system_x_group:Vascular access/line placement x I1,system_x_group,S,0.3
+10,system:Craniofacial/ENT/oral,system,156,1.68
+10,system:GI/abdominal,system,1268,1.45
+10,system:Hepatobiliary,system,180,2.64
+10,system:Neurosurgical,system,889,1.08
+10,system:Orthopedic/spine,system,S,2.07
+10,system:Other,system,88,1.04
+10,system:Urologic/renal,system,183,2.43
+10,all,all,5141,1.53
+20,type:angiocardiography,own_type,S,0.92
+20,type:anoplasty,own_type,S,0.75
+20,type:asd repair,own_type,S,1.64
+20,type:asd repair+pda repair+vsd repair,own_type,S,2.12
+20,type:asd repair+vsd repair,own_type,S,2.02
+20,"type:asd repair, tee-guided",own_type,S,0.66
+20,type:brain stem tumor resection,own_type,S,3.05
+20,type:cleft palate repair,own_type,S,1.97
+20,type:colon resection and anastomosis+exploratory laparotomy,own_type,S,1.46
+20,type:deep supratentorial lesions resection,own_type,S,2.6
+20,type:deep vein catheterization,own_type,S,0.25
+20,type:depressed skull fracture repair,own_type,S,0.58
+20,type:diaphragmatic paralysis surgery,own_type,S,1.07
+20,type:diaphragmatic repair,own_type,S,0.9
+20,type:dsa,own_type,S,0.62
+20,type:enterostomy,own_type,S,0.8
+20,type:enterostomy+exploratory laparotomy,own_type,S,1.46
+20,type:epidural hematoma evacuation,own_type,S,0.92
+20,type:esophageal atresia repair,own_type,S,2.19
+20,type:exploratory laparotomy,own_type,S,1.43
+20,type:hiatal hernia repair,own_type,S,1.37
+20,type:intracranial hematoma evacuation,own_type,S,1.11
+20,type:intracranial space-occupying resection,own_type,S,3.0
+20,type:laparoscopic choledochal cyst radical resection,own_type,S,3.05
+20,type:laparoscopic ladd procedure,own_type,S,1.48
+20,type:laparoscopic megacolon radical operation,own_type,S,2.05
+20,type:laparoscopic pyloromyotomy,own_type,S,0.42
+20,type:mediastinal mass resection,own_type,S,1.07
+20,type:meningocele repair,own_type,S,0.9
+20,type:pda repair,own_type,S,0.83
+20,type:pda repair+vsd repair,own_type,S,2.0
+20,type:pfo repair+vsd repair,own_type,S,2.02
+20,type:pulmonary lobectomy,own_type,S,1.13
+20,type:pulmonary stenosis balloon dilatation,own_type,S,0.7
+20,type:rectal biopsy,own_type,S,0.17
+20,type:tapvc repair,own_type,S,3.11
+20,type:tethered cord syndrome surgery,own_type,S,0.95
+20,type:tetralogy of fallot repair,own_type,S,3.0
+20,type:thoracoplasty,own_type,S,0.68
+20,type:ventriculoperitoneal shunt,own_type,S,0.63
+20,type:vsd repair,own_type,502,1.93
+20,system_x_group:Cardiac x G1,system_x_group,1521,1.92
+20,system_x_group:Cardiac x G2,system_x_group,20,3.92
+20,system_x_group:Cardiac x G3,system_x_group,42,3.08
+20,system_x_group:Cardiac x NC,system_x_group,34,0.75
+20,system_x_group:Craniofacial/ENT/oral x I3,system_x_group,152,1.71
+20,system_x_group:Diagnostic/imaging-interventional x I1,system_x_group,291,0.4
+20,system_x_group:GI/abdominal x I2,system_x_group,348,1.54
+20,system_x_group:GI/abdominal x I3,system_x_group,914,1.42
+20,system_x_group:Hepatobiliary x I2,system_x_group,114,2.88
+20,system_x_group:Hepatobiliary x I3,system_x_group,66,1.98
+20,system_x_group:Neurosurgical x I3,system_x_group,880,1.08
+20,system_x_group:Other x I1,system_x_group,82,1.04
+20,system_x_group:Thoracic/airway x I2,system_x_group,22,1.27
+20,system_x_group:Thoracic/airway x I3,system_x_group,349,1.02
+20,system_x_group:Urologic/renal x I2,system_x_group,52,2.17
+20,system_x_group:Urologic/renal x I3,system_x_group,127,2.63
+20,system_x_group:Vascular access/line placement x I1,system_x_group,S,0.3
+20,system:Craniofacial/ENT/oral,system,156,1.68
+20,system:GI/abdominal,system,1268,1.45
+20,system:Hepatobiliary,system,180,2.64
+20,system:Neurosurgical,system,889,1.08
+20,system:Other,system,88,1.04
+20,system:Urologic/renal,system,183,2.43
+20,all,all,5141,1.53

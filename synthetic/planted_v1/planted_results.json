@@ -1,0 +1,116 @@
+{
+ "Xeng_shape/exact_rank10_plus_noise": {
+  "stable_rank": 6.05,
+  "entropy_erank": 34.44,
+  "k95_sigma2": 10,
+  "k95_sigma": 70,
+  "decay_best": "power",
+  "alpha": 1.313,
+  "beta": 0.122,
+  "above_perm_null": 10,
+  "above_MP_edge": 10,
+  "kappa": 22.5,
+  "CUR_ratio_k10_median": {
+   "uniform": 3.296,
+   "lev_rand": 3.039,
+   "lev_det": 2.363,
+   "cpqr": 1.634,
+   "deim": 1.81
+  }
+ },
+ "Xeng_shape/power_alpha1.5": {
+  "stable_rank": 1.2,
+  "entropy_erank": 11.62,
+  "k95_sigma2": 3,
+  "k95_sigma": 35,
+  "decay_best": "power",
+  "alpha": 1.5,
+  "beta": 0.133,
+  "above_perm_null": 2,
+  "above_MP_edge": 5,
+  "kappa": 742.5,
+  "CUR_ratio_k10_median": {
+   "uniform": 2.463,
+   "lev_rand": 2.322,
+   "lev_det": 1.972,
+   "cpqr": 1.573,
+   "deim": 1.58
+  }
+ },
+ "Xeng_shape/exponential_beta0.15": {
+  "stable_rank": 3.86,
+  "entropy_erank": 18.14,
+  "k95_sigma2": 10,
+  "k95_sigma": 20,
+  "decay_best": "exponential",
+  "alpha": 1.43,
+  "beta": 0.15,
+  "above_perm_null": 7,
+  "above_MP_edge": 11,
+  "kappa": 189094.1,
+  "CUR_ratio_k10_median": {
+   "uniform": 2.243,
+   "lev_rand": 2.472,
+   "lev_det": 2.303,
+   "cpqr": 1.57,
+   "deim": 1.585
+  }
+ },
+ "Xraw_shape/exact_rank10_plus_noise": {
+  "stable_rank": 6.0,
+  "entropy_erank": 25.04,
+  "k95_sigma2": 10,
+  "k95_sigma": 49,
+  "decay_best": "power",
+  "alpha": 1.32,
+  "beta": 0.123,
+  "above_perm_null": 10,
+  "above_MP_edge": 10,
+  "kappa": 22.2,
+  "CUR_ratio_k10_median": {
+   "uniform": 3.556,
+   "lev_rand": 3.63,
+   "lev_det": 3.061,
+   "cpqr": 1.623,
+   "deim": 1.807
+  }
+ },
+ "Xraw_shape/power_alpha1.5": {
+  "stable_rank": 1.2,
+  "entropy_erank": 10.55,
+  "k95_sigma2": 3,
+  "k95_sigma": 28,
+  "decay_best": "power",
+  "alpha": 1.5,
+  "beta": 0.133,
+  "above_perm_null": 1,
+  "above_MP_edge": 5,
+  "kappa": 453.2,
+  "CUR_ratio_k10_median": {
+   "uniform": 2.392,
+   "lev_rand": 2.331,
+   "lev_det": 2.28,
+   "cpqr": 1.539,
+   "deim": 1.471
+  }
+ },
+ "Xraw_shape/exponential_beta0.15": {
+  "stable_rank": 3.86,
+  "entropy_erank": 18.11,
+  "k95_sigma2": 10,
+  "k95_sigma": 20,
+  "decay_best": "exponential",
+  "alpha": 1.43,
+  "beta": 0.15,
+  "above_perm_null": 7,
+  "above_MP_edge": 9,
+  "kappa": 6002.9,
+  "CUR_ratio_k10_median": {
+   "uniform": 2.228,
+   "lev_rand": 2.387,
+   "lev_det": 2.036,
+   "cpqr": 1.623,
+   "deim": 1.505
+  }
+ }
+}

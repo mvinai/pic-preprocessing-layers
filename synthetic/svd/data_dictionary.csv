@@ -1,0 +1,183 @@
+feature,role,unit_or_coding,description,in_svd_matrix
+encounter_id,id,,Synthetic encounter identifier (E{SUBJECT_ID}_{k}).,no
+SUBJECT_ID,id,,Synthetic patient identifier.,no
+HADM_ID,id,,Synthetic hospital admission identifier (normalized).,no
+split,static,,Subject-level split: train / validation / test (~60/20/20).,no
+sex,static,,Sex from PATIENTS.GENDER (M/F; U if blank). Not planted; treated as noise.,no
+first_careunit,static,,FIRST_CAREUNIT of the first ICU stay. Mildly age-related (NICU more common at young ages) but not used in the SVD analysis matrix.,no
+age_days,signal-age,,"INTIME - DOB in days. NaN and age_band=age_invalid when DOB is missing, unparseable, or yields a negative age (D20). Driven by z_age.",yes
+age_band,signal-age,,neonate / infant / toddler / preschool / school / adolescent / ge18 / age_invalid (D20).,no
+dob_status,static,,valid / missing / unparseable / negative.,no
+neg_age_bin,static,,"For negative ages: lt1d, 1to30d, gt30d; otherwise blank.",no
+neuro_dx,static,,"Admitting ICD-10 matches the v1 neuro set (D3), used only to resolve osmotic_conditional drugs.",no
+died,static,,In-hospital death flag (weakly related to severity in raw generation; not in the SVD analysis matrix).,no
+los_hours,static,,OUTTIME - INTIME in hours.,no
+age_invalid,static,,1 if age_band is age_invalid.,no
+temperature_min_0_24h,channel-summary,,"Minimum valid temperature in [0, 24) h.",no
+temperature_max_0_24h,channel-summary,,"Maximum valid temperature in [0, 24) h.",no
+temperature_mean_0_24h,noise,,"Mean valid temperature in [0, 24) h.",yes
+temperature_count_0_24h,channel-summary,count,"Count of valid temperature measurements in [0, 24) h.",no
+temperature_last_0_24h,channel-summary,,"Last valid temperature in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+temperature_missing_0_24h,missingness,,"1 if temperature has no valid measurement in [0, 24) h.",no
+heart_rate_min_0_24h,signal,,"Minimum valid heart_rate in [0, 24) h.",no
+heart_rate_max_0_24h,signal,,"Maximum valid heart_rate in [0, 24) h.",no
+heart_rate_mean_0_24h,signal,,"Mean valid heart_rate in [0, 24) h.",yes
+heart_rate_count_0_24h,channel-summary,count,"Count of valid heart_rate measurements in [0, 24) h.",no
+heart_rate_last_0_24h,signal,,"Last valid heart_rate in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+heart_rate_missing_0_24h,missingness,,"1 if heart_rate has no valid measurement in [0, 24) h.",no
+respiratory_rate_min_0_24h,signal,,"Minimum valid respiratory_rate in [0, 24) h.",no
+respiratory_rate_max_0_24h,signal,,"Maximum valid respiratory_rate in [0, 24) h.",no
+respiratory_rate_mean_0_24h,signal,,"Mean valid respiratory_rate in [0, 24) h.",yes
+respiratory_rate_count_0_24h,channel-summary,count,"Count of valid respiratory_rate measurements in [0, 24) h.",no
+respiratory_rate_last_0_24h,signal,,"Last valid respiratory_rate in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+respiratory_rate_missing_0_24h,missingness,,"1 if respiratory_rate has no valid measurement in [0, 24) h.",no
+spo2_min_0_24h,signal,,"Minimum valid spo2 in [0, 24) h.",no
+spo2_max_0_24h,signal,,"Maximum valid spo2 in [0, 24) h.",no
+spo2_mean_0_24h,signal,,"Mean valid spo2 in [0, 24) h.",yes
+spo2_count_0_24h,channel-summary,count,"Count of valid spo2 measurements in [0, 24) h.",no
+spo2_last_0_24h,signal,,"Last valid spo2 in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+spo2_missing_0_24h,missingness,,"1 if spo2 has no valid measurement in [0, 24) h.",no
+urine_output_min_0_24h,channel-summary,,"Minimum valid urine_output in [0, 24) h.",no
+urine_output_max_0_24h,channel-summary,,"Maximum valid urine_output in [0, 24) h.",no
+urine_output_mean_0_24h,noise,,"Mean valid urine_output in [0, 24) h.",yes
+urine_output_count_0_24h,channel-summary,count,"Count of valid urine_output measurements in [0, 24) h.",no
+urine_output_last_0_24h,channel-summary,,"Last valid urine_output in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+urine_output_missing_0_24h,missingness,,"1 if urine_output has no valid measurement in [0, 24) h.",no
+fluid_intake_min_0_24h,channel-summary,,"Minimum valid fluid_intake in [0, 24) h.",no
+fluid_intake_max_0_24h,channel-summary,,"Maximum valid fluid_intake in [0, 24) h.",no
+fluid_intake_mean_0_24h,noise,,"Mean valid fluid_intake in [0, 24) h.",yes
+fluid_intake_count_0_24h,channel-summary,count,"Count of valid fluid_intake measurements in [0, 24) h.",no
+fluid_intake_last_0_24h,channel-summary,,"Last valid fluid_intake in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+fluid_intake_missing_0_24h,missingness,,"1 if fluid_intake has no valid measurement in [0, 24) h.",no
+glucose_bedside_min_0_24h,channel-summary,,"Minimum valid glucose_bedside in [0, 24) h.",no
+glucose_bedside_max_0_24h,channel-summary,,"Maximum valid glucose_bedside in [0, 24) h.",no
+glucose_bedside_mean_0_24h,noise,,"Mean valid glucose_bedside in [0, 24) h.",yes
+glucose_bedside_count_0_24h,channel-summary,count,"Count of valid glucose_bedside measurements in [0, 24) h.",no
+glucose_bedside_last_0_24h,channel-summary,,"Last valid glucose_bedside in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+glucose_bedside_missing_0_24h,missingness,,"1 if glucose_bedside has no valid measurement in [0, 24) h.",no
+weight_min_0_24h,channel-summary,,"Minimum valid weight in [0, 24) h.",no
+weight_max_0_24h,channel-summary,,"Maximum valid weight in [0, 24) h.",no
+weight_mean_0_24h,channel-summary,,"Mean valid weight in [0, 24) h.",no
+weight_count_0_24h,channel-summary,count,"Count of valid weight measurements in [0, 24) h.",no
+weight_last_0_24h,channel-summary,,"Last valid weight in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+weight_missing_0_24h,missingness,,"1 if weight has no valid measurement in [0, 24) h.",no
+dbp_min_0_24h,signal,,"Minimum valid dbp in [0, 24) h.",no
+dbp_max_0_24h,signal,,"Maximum valid dbp in [0, 24) h.",no
+dbp_mean_0_24h,signal,,"Mean valid dbp in [0, 24) h.",yes
+dbp_count_0_24h,channel-summary,count,"Count of valid dbp measurements in [0, 24) h.",no
+dbp_last_0_24h,signal,,"Last valid dbp in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+dbp_missing_0_24h,missingness,,"1 if dbp has no valid measurement in [0, 24) h.",no
+sbp_min_0_24h,signal,,"Minimum valid sbp in [0, 24) h.",no
+sbp_max_0_24h,signal,,"Maximum valid sbp in [0, 24) h.",no
+sbp_mean_0_24h,signal,,"Mean valid sbp in [0, 24) h.",yes
+sbp_count_0_24h,channel-summary,count,"Count of valid sbp measurements in [0, 24) h.",no
+sbp_last_0_24h,signal,,"Last valid sbp in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+sbp_missing_0_24h,missingness,,"1 if sbp has no valid measurement in [0, 24) h.",no
+creatinine_min_0_24h,signal,,"Minimum valid creatinine in [0, 24) h.",no
+creatinine_max_0_24h,signal,,"Maximum valid creatinine in [0, 24) h.",no
+creatinine_mean_0_24h,signal,,"Mean valid creatinine in [0, 24) h.",yes
+creatinine_count_0_24h,channel-summary,count,"Count of valid creatinine measurements in [0, 24) h.",no
+creatinine_last_0_24h,signal,,"Last valid creatinine in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+creatinine_missing_0_24h,missingness,,"1 if creatinine has no valid measurement in [0, 24) h.",no
+fio2_min_0_24h,signal,,"Minimum valid fio2 in [0, 24) h.",no
+fio2_max_0_24h,signal,,"Maximum valid fio2 in [0, 24) h.",no
+fio2_mean_0_24h,signal,,"Mean valid fio2 in [0, 24) h.",yes
+fio2_count_0_24h,channel-summary,count,"Count of valid fio2 measurements in [0, 24) h.",no
+fio2_last_0_24h,signal,,"Last valid fio2 in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+fio2_missing_0_24h,missingness,,"1 if fio2 has no valid measurement in [0, 24) h.",no
+po2_min_0_24h,signal,,"Minimum valid po2 in [0, 24) h.",no
+po2_max_0_24h,signal,,"Maximum valid po2 in [0, 24) h.",no
+po2_mean_0_24h,signal,,"Mean valid po2 in [0, 24) h.",yes
+po2_count_0_24h,channel-summary,count,"Count of valid po2 measurements in [0, 24) h.",no
+po2_last_0_24h,signal,,"Last valid po2 in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+po2_missing_0_24h,missingness,,"1 if po2 has no valid measurement in [0, 24) h.",no
+pf_ratio_lab_crosscheck_min_0_24h,channel-summary,,"Minimum valid pf_ratio_lab_crosscheck in [0, 24) h.",no
+pf_ratio_lab_crosscheck_max_0_24h,channel-summary,,"Maximum valid pf_ratio_lab_crosscheck in [0, 24) h.",no
+pf_ratio_lab_crosscheck_mean_0_24h,channel-summary,,"Mean valid pf_ratio_lab_crosscheck in [0, 24) h.",no
+pf_ratio_lab_crosscheck_count_0_24h,channel-summary,count,"Count of valid pf_ratio_lab_crosscheck measurements in [0, 24) h.",no
+pf_ratio_lab_crosscheck_last_0_24h,channel-summary,,"Last valid pf_ratio_lab_crosscheck in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+pf_ratio_lab_crosscheck_missing_0_24h,missingness,,"1 if pf_ratio_lab_crosscheck has no valid measurement in [0, 24) h.",no
+hemoglobin_min_0_24h,channel-summary,,"Minimum valid hemoglobin in [0, 24) h.",no
+hemoglobin_max_0_24h,channel-summary,,"Maximum valid hemoglobin in [0, 24) h.",no
+hemoglobin_mean_0_24h,noise,,"Mean valid hemoglobin in [0, 24) h.",yes
+hemoglobin_count_0_24h,channel-summary,count,"Count of valid hemoglobin measurements in [0, 24) h.",no
+hemoglobin_last_0_24h,channel-summary,,"Last valid hemoglobin in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+hemoglobin_missing_0_24h,missingness,,"1 if hemoglobin has no valid measurement in [0, 24) h.",no
+troponin_t_last_0_24h,channel-summary,,"Last valid troponin_t in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+troponin_t_min_0_24h,channel-summary,,"Minimum valid troponin_t in [0, 24) h.",no
+troponin_t_max_0_24h,channel-summary,,"Maximum valid troponin_t in [0, 24) h.",no
+troponin_t_mean_0_24h,channel-summary,,"Mean valid troponin_t in [0, 24) h.",no
+troponin_t_count_0_24h,channel-summary,count,"Count of valid troponin_t measurements in [0, 24) h.",no
+troponin_t_missing_0_24h,missingness,,"1 if troponin_t has no valid measurement in [0, 24) h.",no
+magnesium_min_0_24h,channel-summary,,"Minimum valid magnesium in [0, 24) h.",no
+magnesium_max_0_24h,channel-summary,,"Maximum valid magnesium in [0, 24) h.",no
+magnesium_mean_0_24h,noise,,"Mean valid magnesium in [0, 24) h.",yes
+magnesium_count_0_24h,channel-summary,count,"Count of valid magnesium measurements in [0, 24) h.",no
+magnesium_last_0_24h,channel-summary,,"Last valid magnesium in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+magnesium_missing_0_24h,missingness,,"1 if magnesium has no valid measurement in [0, 24) h.",no
+calcium_total_min_0_24h,channel-summary,,"Minimum valid calcium_total in [0, 24) h.",no
+calcium_total_max_0_24h,channel-summary,,"Maximum valid calcium_total in [0, 24) h.",no
+calcium_total_mean_0_24h,noise,,"Mean valid calcium_total in [0, 24) h.",yes
+calcium_total_count_0_24h,channel-summary,count,"Count of valid calcium_total measurements in [0, 24) h.",no
+calcium_total_last_0_24h,channel-summary,,"Last valid calcium_total in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+calcium_total_missing_0_24h,missingness,,"1 if calcium_total has no valid measurement in [0, 24) h.",no
+lipase_last_0_24h,channel-summary,,"Last valid lipase in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+lipase_min_0_24h,channel-summary,,"Minimum valid lipase in [0, 24) h.",no
+lipase_max_0_24h,channel-summary,,"Maximum valid lipase in [0, 24) h.",no
+lipase_mean_0_24h,channel-summary,,"Mean valid lipase in [0, 24) h.",no
+lipase_count_0_24h,channel-summary,count,"Count of valid lipase measurements in [0, 24) h.",no
+lipase_missing_0_24h,missingness,,"1 if lipase has no valid measurement in [0, 24) h.",no
+sodium_min_0_24h,channel-summary,,"Minimum valid sodium in [0, 24) h.",no
+sodium_max_0_24h,channel-summary,,"Maximum valid sodium in [0, 24) h.",no
+sodium_mean_0_24h,noise,,"Mean valid sodium in [0, 24) h.",yes
+sodium_count_0_24h,channel-summary,count,"Count of valid sodium measurements in [0, 24) h.",no
+sodium_last_0_24h,channel-summary,,"Last valid sodium in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+sodium_missing_0_24h,missingness,,"1 if sodium has no valid measurement in [0, 24) h.",no
+lactate_min_0_24h,signal,,"Minimum valid lactate in [0, 24) h.",no
+lactate_max_0_24h,signal,,"Maximum valid lactate in [0, 24) h.",no
+lactate_mean_0_24h,signal,,"Mean valid lactate in [0, 24) h.",yes
+lactate_count_0_24h,channel-summary,count,"Count of valid lactate measurements in [0, 24) h.",no
+lactate_last_0_24h,signal,,"Last valid lactate in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+lactate_missing_0_24h,missingness,,"1 if lactate has no valid measurement in [0, 24) h.",no
+map_min_0_24h,signal,,"Minimum valid map in [0, 24) h.",no
+map_max_0_24h,signal,,"Maximum valid map in [0, 24) h.",no
+map_mean_0_24h,signal,,"Mean valid map in [0, 24) h.",yes
+map_count_0_24h,channel-summary,count,"Count of valid map measurements in [0, 24) h.",no
+map_last_0_24h,signal,,"Last valid map in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+map_missing_0_24h,missingness,,"1 if map has no valid measurement in [0, 24) h.",no
+pf_ratio_min_0_24h,signal,,"Minimum valid pf_ratio in [0, 24) h.",no
+pf_ratio_max_0_24h,signal,,"Maximum valid pf_ratio in [0, 24) h.",no
+pf_ratio_mean_0_24h,signal,,"Mean valid pf_ratio in [0, 24) h.",yes
+pf_ratio_count_0_24h,channel-summary,count,"Count of valid pf_ratio measurements in [0, 24) h.",no
+pf_ratio_last_0_24h,signal,,"Last valid pf_ratio in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+pf_ratio_missing_0_24h,missingness,,"1 if pf_ratio has no valid measurement in [0, 24) h.",no
+sf_ratio_min_0_24h,signal,,"Minimum valid sf_ratio in [0, 24) h.",no
+sf_ratio_max_0_24h,signal,,"Maximum valid sf_ratio in [0, 24) h.",no
+sf_ratio_mean_0_24h,signal,,"Mean valid sf_ratio in [0, 24) h.",yes
+sf_ratio_count_0_24h,channel-summary,count,"Count of valid sf_ratio measurements in [0, 24) h.",no
+sf_ratio_last_0_24h,signal,,"Last valid sf_ratio in [0, 24) h (by t_hours, labs lagged +1 h release).",no
+sf_ratio_missing_0_24h,missingness,,"1 if sf_ratio has no valid measurement in [0, 24) h.",no
+psofa_resp_0_24h,signal-respiratory,,"Worst (max) pSOFA respiratory score in [0, 24) h. P/F preferred when present (cuts D19: >=400 0, 300-399 1, 200-299 2, 100-199 3, <100 4); otherwise S/F (cuts D15: >=292 0, 264-291 1, 221-263 2, 148-220 3, <148 4). No ventilation requirement (D19).",yes
+psofa_resp_source_0_24h,static,,pf_ratio or sf_ratio.,no
+psofa_resp_missing_0_24h,missingness,,1 if neither P/F nor S/F is available in the window.,no
+vasoactive_exposed_0_24h,signal-severity,,"1 if any vasoactive course overlaps [0, 24) h (12 h default duration when ENDDATE is missing, D-group cutoff).",yes
+antibiotic_exposed_0_24h,medication,,"1 if any antibiotic course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+antifungal_exposed_0_24h,medication,,"1 if any antifungal course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+antiviral_exposed_0_24h,medication,,"1 if any antiviral course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+sedative_analgesic_exposed_0_24h,medication,,"1 if any sedative_analgesic course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+non_opioid_analgesic_exposed_0_24h,medication,,"1 if any non_opioid_analgesic course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+antiemetic_exposed_0_24h,medication,,"1 if any antiemetic course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+diuretic_exposed_0_24h,medication,,"1 if any diuretic course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+osmotherapy_exposed_0_24h,medication,,"1 if any osmotherapy course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+electrolyte_replacement_exposed_0_24h,medication,,"1 if any electrolyte_replacement course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+steroid_exposed_0_24h,medication,,"1 if any steroid course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+nmb_exposed_0_24h,medication,,"1 if any nmb course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+aed_exposed_0_24h,medication,,"1 if any aed course overlaps [0, 24) h. Other than vasoactive, groups are not factor-driven (noise).",no
+vasoactive_max_concurrent_0_24h,signal-severity,,"Maximum number of vasoactive agents simultaneously active in [0, 24) h.",yes
+map_lt70_0_24h,signal-severity,,"1 if any valid derived MAP in the window is < 70 mmHg. Simple hypotension flag, not a full age-adjusted pSOFA cardiovascular score.",no
+lactate_gt2_0_24h,signal-severity,,1 if any lactate in the window is > 2 mmol/L.,no
+lactate_gt4_0_24h,signal-severity,,1 if any lactate in the window is > 4 mmol/L.,no
+weight_kg,signal-age,,"Charted weight (item 1014) in 0-24 h if present, else imputed (age-band x sex median on train; age_invalid falls back to sex or overall median, D20). Driven by z_age via an age-weight curve plus a residual log-weight loading.",yes
+weight_source,static,,charted / age_band_sex_median / age_band_median / sex_median / overall_median / missing.,no
+fluid_intake_ml_0_24h,noise,,"Sum of charted fluid_intake (item 1009, mL) in [0, 24) h. Not factor-driven.",no
+fluid_intake_ml_per_kg_per_day,noise,,fluid_intake_ml_0_24h / weight_kg.,no

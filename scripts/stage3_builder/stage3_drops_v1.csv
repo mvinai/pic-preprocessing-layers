@@ -1,0 +1,23 @@
+# Stage 3 audit v1.1 (builder v1.0.2): subtrees withheld from the release as a whole (Vinai, Nov 17, 2026; decision 1 of the v1.0.1 audit review).
+# Withheld cells stay unknowns in every equation of the joint (Stage 3 + Stage 2 v1.0.2) audit. This file is hash-pinned in the script.
+subtree,reason
+/plausibility/temperature/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/heart_rate/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/respiratory_rate/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/urine_output/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/ldh/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/phosphate/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/chloride/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/sodium/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/hemoglobin/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/bicarbonate/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/potassium/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/anc/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/ggt/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/lymphocytes_abs/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/plausibility/pain_score/train,"L1: train counts + Stage 2 row_status totals pin Stage 2 small cells; overall counts kept for the gate lock"
+/admission_interval/withheld,"L2: missing / non-negative intervals + Stage 2 per-split negatives pin the missing count"
+/event_linkage/CHARTEVENTS,"L3: residual of Stage 2 reconciliation under 10 (root cause in Stage 2 v1.0.2; flagged for v1.0.3)"
+/event_linkage/MICROBIOLOGYEVENTS,"L3: residual of Stage 2 reconciliation under 10 (root cause in Stage 2 v1.0.2; flagged for v1.0.3)"
+/age/invalid_detail,"L4: missing / unparseable / negative DOB detail and negative-age bins withheld; only valid and invalid totals (gate decides)"
+/weight_source/by_source,"§10 (Nov 17, 2026): per-source split of imputed weights (cn_ref, who_ref, train tiers); age_invalid without charted weight always falls to the train tiers, so a released split gives age_invalid-with-charted-weight by subtraction from /age/n_invalid"

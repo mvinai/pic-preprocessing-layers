@@ -1,0 +1,12 @@
+pointer,reason
+/denominators/n_encounters,"cohort size: public (cohort_checks, plan, earlier audits); frozen in v1.0.1 too"
+/denominators/train/n_encounters,"split size: public; frozen in v1.0.1 too"
+/denominators/validation/n_encounters,"split size: public; frozen in v1.0.1 too"
+/denominators/test/n_encounters,"split size: public; frozen in v1.0.1 too"
+/denominators/train/eligible/24h/n_eligible,"24 h train landmark rows: quoted in plan v13"
+/map_checks/row_status/fio2/n_measurement,"FiO2 measurement rows: same figure is published in the follow-up output (21-100 band) and the audit report"
+/map_checks/sf_ratio/n_fio2_draws,"FiO2 draws: same figure as the FiO2 measurement rows (CONFIRM same definition)"
+/map_checks/sf_ratio/fio2_draws/n_with_valid_pf,"valid P/F draws: same figure as P/F valid pairs, published in the follow-up output"
+/map_checks/pf_ratio/same_draw_pairs/n_valid,"published in the follow-up output (stage2_definition) and quoted for D29"
+/map_checks/pf_ratio/same_draw_pairs/n_outside_gate,"published in the follow-up output (stage2_definition) and quoted for D29"
+/map_checks/pf_ratio/same_draw_pairs/n_total,"published in the follow-up output (stage2_definition)"

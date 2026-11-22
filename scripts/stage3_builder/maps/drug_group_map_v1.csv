@@ -1,0 +1,344 @@
+drug_name,drug_name_en,units,train_encounters,group,sensitivity_subgroup,conditional_rule,subclass,confidence,decision,notes
+(4:1)葡萄糖氯化钠注射液,(4:1)Glucose and Sodium Chloride Injection,bag; ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+(婴)维生素AD滴剂,Vitamin A and D Drops,,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+(幼)维生素AD滴剂,Vitamin A and D Drops,,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+0.9％氯化钠注射液,0.9% Sodium Chloride Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+1.5％腹膜透析液(乳酸盐-G1.5%),Peritoneal Dialysis Solution (Lactate G1.5%),ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+10％氯化钠注射液,10% Sodium Chloride Injection,ml,,osmotic_conditional,,neuro admitting dx -> osmotherapy; otherwise -> electrolyte_replacement (group D18); sensitivity: all -> osmotherapy,osmotic agent,high,"D3 (Vinai, Nov 14, 2026)","classified by the Layer A primary admitting diagnosis (ADMISSIONS ICD10_CODE_CN, 3-character) against the PENDING neuro ICD-10 set"
+10％氯化钾口服溶液,10% Potassium Chloride Oral Solution,ml,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18)
+10％氯化钾注射液,10% Potassium Chloride Injection,ml,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18)
+10％葡萄糖注射液,10% Glucose Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+10％葡萄糖酸钙注射液,10% Calcium Gluconate Injection,ml; tube,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18); also given for hyperkalaemia / cardiac protection
+20％中长链脂肪乳注射液,20% Medium and Long Chain Fat Emulsion Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+20％人血白蛋白注射液,20% Albumin Prepared From Human Plasma Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+20％甘露醇注射液,20% Mannitol Injection,ml,,osmotic_conditional,,neuro admitting dx -> osmotherapy; otherwise -> diuretic; sensitivity: all -> osmotherapy,osmotic agent,high,"D3 (Vinai, Nov 14, 2026)","classified by the Layer A primary admitting diagnosis (ADMISSIONS ICD10_CODE_CN, 3-character) against the PENDING neuro ICD-10 set"
+20％脂肪乳注射液,20% Fat Emulsion Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+25％硫酸镁注射液,25% Magnesium Sulfate Injection,ml,,electrolyte_replacement,,,electrolyte replacement,medium,"D18 (Vinai, Nov 14, 2026)","electrolyte_replacement group (D18); IV magnesium is also used for asthma, arrhythmia and PPHN"
+2％盐酸普鲁卡因注射液,2% Procaine Hydrochloride Injection,ml,,none,,,local anaesthetic/antiarrhythmic,medium,,
+50％葡萄糖注射液,50% Glucose Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+5％氯化钙注射液,5% Calcium Chloride Injection,ml,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18)
+5％碳酸氢钠注射液,5% Sodium Bicarbonate Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+5％葡萄糖氯化钠注射液,5% Glucose and Sodium Chloride Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+5％葡萄糖注射液,5% Glucose Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+6%右旋糖酐40葡萄糖注射液,6% Dextran 40 Glucose Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+L-谷氨酰胺胍仑酸钠颗粒,L-Glutamine and Sodium Gualenate Granules,bag; g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+ω-3鱼油脂肪乳注射液,ω-3 Fish Oil Fat Emulsion Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+丁酸氢化可的松乳膏,Hydrocortisone Butyrate Cream,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+丙戊酸钠口服溶液,Sodium Valproate Oral Solution,ml,,aed,,,antiepileptic,high,,
+丙泊酚注射液,Propofol Injectable Emulsion,mg; ml,,sedative_analgesic,,,sedative/opioid,high,,
+中长链脂肪乳注射液,Medium and Long Chain Fat Emulsion Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+乳果糖口服溶液,Lactulose Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+乳酸米力农注射液,Milrinone Lactate Injection,mg,,vasoactive,inotrope,,vasoactive,high,"D1 (Vinai, Nov 14, 2026)",one vasoactive group: exposure flag + count of concurrently active agents (no infusion rates); the vasopressor/inotrope split is a sensitivity analysis only
+五维牛磺酸口服溶液,Wuwei Niuhuangsuan Koufuye,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+人凝血因子Ⅷ,Human Coagulation Factor Ⅷ,iu,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+人凝血酶原复合物,Human Prothrombin Complex,iu,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+人纤维蛋白原,Human Fibrinogen,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+伏立康唑片,Voriconazole Tablets,mg,,antifungal,,,antifungal,high,"D2 (Vinai, Nov 14, 2026)",systemic antifungal group (D2)
+低分子肝素钙注射液,Low-molecular-weight Heparin Calcium Injection,ml,,none,,,anticoagulant/thrombolytic,high,,
+依托泊苷注射液,Etoposide Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+儿童维D钙咀嚼片,Calcium Supplement with Vitamin D Chewable Tablets-Children's Formula,mg,,electrolyte_replacement,,,electrolyte replacement,medium,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18); oral calcium/vitamin D supplement
+凝血酶冻干粉,Lyophilizing Thrombin Powder,bottle; unit,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+利可君片,Leucogen Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+利奈唑胺注射液,Linezolid Injection,ml,,antibiotic,,,antibacterial,high,,
+利奈唑胺片,Linezolid Tablets,g; mg,,antibiotic,,,antibacterial,high,,
+利巴韦林注射液,Ribavirin Injection,mg,,antiviral,,,antiviral,high,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2)
+利福平胶囊,Rifampicin Capsules,g,,antibiotic,,,antituberculous,medium,,anti-TB
+别嘌醇片,Allopurinol Tablets,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+制霉素搽剂,Nysfungin Liniment,bottle; ml,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+制霉素甘油,Nysfungin Glycerinum,ml,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+前列地尔注射液,Alprostadil Injection,μg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+卡介菌纯蛋白衍生物,Purified Protein Derivative of BCG,iu,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+卡托普利片,Captopril Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+卡马西平片,Carbamazepine Tablets,g; mg,,aed,,,antiepileptic,high,,
+去乙酰毛花苷注射液,Deslanoside Injection,mg; tube,,none,,,cardiac glycoside,medium,,inotropic but chronic/oral; proposed outside the vasoactive group
+双嘧达莫片,Dipyzidamole Tablets,mg,,none,,,anticoagulant/thrombolytic,high,,
+双歧杆菌三联活菌散,"Live Combined Bifidobacterium, Lactobacillus and Enterococcus Powder,oral",bag; g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+口服乳杆菌LB散,Lactobacillus LB sachets,100 million; bag,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+口服用水合氯醛粉,Oral Chloral Hydrate,ml,,sedative_analgesic,,,sedative/opioid,high,,
+口服补液盐散(I),Oral Rehydration Salts Powder(I),bag; g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+口腔炎喷雾剂,Kouqiangyan Penwuji,,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+吗替麦考酚酯胶囊,Mycophenolate Mofetil Capsules,g; mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+吡嗪酰胺片,Pyrazinamide Tablets,g,,antibiotic,,,antituberculous,medium,,anti-TB
+吲哚美辛肠溶片,Indometacin Enteric-coated Tablets,mg,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4); indometacin may be used for PDA closure in neonates"
+吸入用丙酸倍氯米松混悬液,Beclomethasone dipropionate inhalation suspension,ml,,none,,,inhaled corticosteroid,medium,,inhaled; proposed outside 'steroid' (systemic)
+吸入用布地奈德混悬液,Budesonide Suspension for Inhalation,ml,,none,,,inhaled corticosteroid,medium,,inhaled; proposed outside 'steroid' (systemic)
+吸入用异丙托溴铵溶液,Ipratropium Bromide Solution for Inhalation,ml; tube,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+吸入用硫酸沙丁胺醇溶液,Salbutamol Sulfate Nebules Inhalation Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+呋喃西林氧化锌搽剂,Nitrofuracilin Zinc Oxide Liniment,bottle; g,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+呋喃西林粉,Furacilin powder,bag; g,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+呋塞米注射液,Furosemide Injection,mg,,diuretic,,,diuretic,high,,
+呋塞米片,Furosemide Tablets,mg,,diuretic,,,diuretic,high,,
+呋麻滴鼻液,Ephedrine Hydrochloride and Nitrofurazone Nasal Drops,drop,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+咪达唑仑注射液,Midazolam Injection,mg,,sedative_analgesic,,,sedative/opioid,high,"D5 (Vinai, Nov 14, 2026)",stays sedative (D5)
+地塞米松磷酸钠注射液,Dexamethasone Sodium Phosphate Injection,mg,,steroid,,,systemic corticosteroid,high,,
+地西泮注射液,Diazepam Injection,mg,,sedative_analgesic,,,sedative/opioid,high,"D5 (Vinai, Nov 14, 2026)",stays sedative (D5)
+地高辛口服溶液,Digoxin Oral Solution,ml,,none,,,cardiac glycoside,medium,,inotropic but chronic/oral; proposed outside the vasoactive group
+地高辛片,Digoxin Tablets,mg,,none,,,cardiac glycoside,medium,,inotropic but chronic/oral; proposed outside the vasoactive group
+地高辛酏剂,Digoxin Elixirs,ml,,none,,,cardiac glycoside,medium,,inotropic but chronic/oral; proposed outside the vasoactive group
+垂体后叶注射液,Posterior Pituitary Injection,iu,,none,,,vasopressin analogue (posterior pituitary),low,,not in the D1 vasoactive list; often used for haemorrhage or diabetes insipidus - Vinai to confirm (vasoactive or none)
+培门冬酶注射液,PegaspargaseInjection,iu,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+复方利多卡因乳膏,Compound Lidocaine Cream,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+复方右旋糖酐40注射液,Compound Dextran 40 Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+复方对乙酰氨基酚片Ⅱ,Compound Paracetamol TabletsⅡ,,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4)"
+复方托吡卡胺滴眼液,Compound Tropicamide Eye Drops,drop,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+复方氨基酸注射液,Compound Amino Acid Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+复方氯己定含漱液,Compound Chlorhexidine Gargle,ml,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+复方泛影葡胺注射液,76% Compound Meglumine Diatrizoate Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+复方甘草酸苷注射液,Compound Glycyrrhizin Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+复方甘草酸苷片,Compound Glycyrrhizin Tablets,box,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+复方磺胺甲噁唑片,Compound Sulfamethoxazole Tablets,g,,antibiotic,,,antibacterial,high,,
+复方铁锌口服溶液,"Compound Zinc Gluconate,Ferrous Gluconate Oral Solution",ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+多潘立酮片,Domperidone Tablets,mg,,antiemetic,,,antiemetic,medium,"D4 (Vinai, Nov 14, 2026)",antiemetic group (D4); domperidone included as an antiemetic/prokinetic
+多磺酸粘多糖乳膏,Mucopolysaccharide Polysulfate Cream,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+多种微量元素注射液Ⅱ,Multi-trace Elements Injection(Ⅱ),ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+多种油脂肪乳注射液(C6-24),Medium and Long Chain Fat Emulsion Injection(C6-24),ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+头孢克洛干混悬剂,Cefaclor for Suspension,g,,antibiotic,,,antibacterial,high,,
+头孢克肟颗粒,Cefixime Granules,mg,,antibiotic,,,antibacterial,high,,
+头孢地尼胶囊,Cefdinir Capsules,g,,antibiotic,,,antibacterial,high,,
+奥卡西平片,Oxcarbazepine Tablets,g,,aed,,,antiepileptic,high,,
+奥拉西坦注射液,Oxiracetam Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+妥布霉素地塞米松眼膏,Tobramycin and Dexamethasone Ophthalmic Ointment,cm,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+孟鲁司特钠咀嚼片,Montelukast Sodium Chewable Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+对乙酰氨基酚口服溶液,Paracetamol Oral Solution,ml,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4)"
+对乙酰氨基酚混悬滴剂,Paracetamol Suspension Drop,ml,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4)"
+小儿伪麻美芬滴剂,Pseudoephedrine Hydrochloride Drops,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+小儿复方氨基酸注射液,Pediatric Compound Amino Acid Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+小儿复方氨基酸注射液(19AA-1),Pediatric Compound Amino Acid Injection(19AA-1),ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+小儿复方氨基酸注射液(19AA-1),Pediatric Compound Amino Acid Injection(19AA-I),ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+小儿布洛芬栓,Paediatric Ibuprofen Suppositories,mg,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4)"
+尼莫地平注射液,Nimodipine Injection,ml,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+尼莫地平片,Nimodipine Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+左乙拉西坦片,Levetiracetam Tablets,g,,aed,,,antiepileptic,high,,
+左卡尼汀口服溶液,Levocarnitine Oral Solution,g; ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+左卡尼汀注射液,Levocarnitine Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+左氧氟沙星氯化钠注射液,Levofloxacin and Sodium Chloride Injection,g,,antibiotic,,,antibacterial,high,,
+左氧氟沙星滴眼液,Levofloxacin Eye Drops,drop,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+左甲状腺素钠片,Levothyroxine Sodium Tablets,μg,,none,,,endocrine,high,,
+布拉氏酵母菌散,Saccharomvces Boulardii Sachets,bag; g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+布洛芬混悬液,Ibuprofen Suspension,ml,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4)"
+康复新液,Kangfuxin Solution,bottle; ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+开喉剑喷雾剂,Kaihoujian Penwuji,,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+开塞露,Enema Glycerini,ml; tube,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+异烟肼注射液,Isoniazid Injection,g; mg,,antibiotic,,,antituberculous,medium,,anti-TB
+愈酚甲麻那敏糖浆,"Guaifenesin,Methylephedrine And Chlorphenamine Syrup",ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+托吡酯片,Topiramate Tablets,mg,,aed,,,antiepileptic,high,,
+无水磷酸氢二钠,Anhydrous Sodium Hydrogen Phosphate,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+果糖二磷酸钠口服液,Fructose Sodium Diphosphate Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+果糖二磷酸钠注射液,Fructose Diphosphate Sodium Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+枯草杆菌二联活菌颗粒,"Combined Bacillus Subtilis and Enterococcus Faecium Granules with Multivitamines, Live",bag; g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+枸橼酸咖啡因注射液,Caffeine Citrate Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+枸橼酸芬太尼注射液,Fentanyl Citrate Injection,mg,,sedative_analgesic,,,sedative/opioid,high,,
+枸橼酸西地那非片,Sildenafil Citrate Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+氟康唑氯化钠注射液,Fluconazole and Sodium Chloride Injection,mg,,antifungal,,,antifungal,high,"D2 (Vinai, Nov 14, 2026)",systemic antifungal group (D2)
+氟康唑注射液,Fluconazole Injection,g; mg,,antifungal,,,antifungal,high,"D2 (Vinai, Nov 14, 2026)",systemic antifungal group (D2)
+氟康唑胶囊,Fluconazole Capsules,mg,,antifungal,,,antifungal,high,"D2 (Vinai, Nov 14, 2026)",systemic antifungal group (D2)
+氟马西尼注射液,Flumazenil Injection,mg; ml,,none,,,reversal agent,high,,not a group member (could flag sedation events)
+氢氯噻嗪片,Hydrochlorothiazide Tablets,mg,,diuretic,,,diuretic,high,,
+氧氟沙星滴眼液,Levofloxacin Eye Drops,drop,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+氧氟沙星眼膏,Ofloxacin Eye Ointment,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+氨基酸注射液,5% Amino Acidi Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+氨溴特罗口服溶液,Ambroxol Hydrochloride and Clenbuterol Hydrochloride Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+氨甲苯酸注射液,Aminomethylbenzoic Acid Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+氨茶碱注射液,Aminophyiline Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+氯化钾片,Potassium Chloride Tablets,g,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18)
+氯化钾缓释片,Potassium Chloride Sustained-release Tablets,g,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18)
+氯硝西泮片,Clonazepam Tablets,mg,,aed,,,"benzodiazepine (oral, antiepileptic use)",high,"D5 (Vinai, Nov 14, 2026)",AED (D5)
+氯雷他定片,Loratadine Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+氯雷他定糖浆,Loratadine Syrup,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+水合氯醛灌肠液,10% Chloral Hydrate Enemas,ml,,sedative_analgesic,,,sedative/opioid,high,,
+水合氯醛糖浆,10% Chloral Hydrate Syrup,ml,,sedative_analgesic,,,sedative/opioid,high,,
+注射用丁二磺酸腺苷蛋氨酸,"Ademetionine 1,4-Butanedisulfonate for Injection",g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用丙戊酸钠,Sodium Valproate for Injection,g,,aed,,,antiepileptic,high,,
+注射用丙氨酰谷氨酰胺,Glutamine for Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用两性霉素B脂质体,Amphotericin B Liposome for Injection,mg,,antifungal,,,antifungal,high,"D2 (Vinai, Nov 14, 2026)",systemic antifungal group (D2)
+注射用乌司他丁,Ulinastatin for Injection,10000iu,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用乳糖酸红霉素,Erythromycin Lactobionate for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用乳糖酸阿奇霉素,Azithromycin Lactobionate for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用亚胺培南西司他丁钠,Imipenem and Cilastatin Sodium for Injection,g; mg,,antibiotic,,,antibacterial,high,,
+注射用伏立康唑,Voriconazole for Injection,mg,,antifungal,,,antifungal,high,"D2 (Vinai, Nov 14, 2026)",systemic antifungal group (D2)
+注射用克林霉素磷酸酯,Clindamycin Phosphate for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用利巴韦林,Ribavirin for Injection,g; mg,,antiviral,,,antiviral,high,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2)
+注射用单唾液酸四己糖神经节苷脂钠,Monosialotetrahexosylganglioside Sodium for Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用卡络磺钠,Carbazochrome Sodium Sulfonate for Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用哌拉西林钠他唑巴坦钠,Piperacillin Sodium and Tazobactam Sodium Injection,g,,antibiotic,,,antibacterial,high,,
+注射用哌拉西林钠他唑巴坦钠,Piperacillin Sodium and Tazobactam Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用复合辅酶,Coenzyme Complex for Injection,bottle; u,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用头孢他啶,Ceftazidime for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用头孢呋辛钠,Cefuroxime Sodium For Injection,g,,antibiotic,,,antibacterial,high,,
+注射用头孢呋辛钠,Cefuroxime Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用头孢哌酮钠舒巴坦钠,Cefoperazone Sodium and Sulbactam Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用头孢噻肟钠,Cefotaxime Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用头孢地嗪钠,Cefodizime Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用头孢拉定,Cefradine for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用头孢曲松钠,Ceftriaxone Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用奥硝唑,Ornidazole for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用奥美拉唑钠,Omeprazole Sodium For Injection,box; mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用尖吻蝮蛇血凝酶,Haemocoagulase Agkistrodon for Injection,u; unit,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用尿激酶,Urokinase for Injection,10000iu; bottle,,none,,,anticoagulant/thrombolytic,high,,
+注射用帕尼培南倍他米隆,Panipenem and Betamipron for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用拉氧头孢钠,Latamoxef Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用更昔洛韦,Ganciclovir for Injection,mg,,antiviral,,,antiviral,high,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2)
+注射用替加环素,Tigecycline for Injection,mg,,antibiotic,,,antibacterial,high,,
+注射用氟氧头孢钠,Flomoxef Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用氢化可的松琥珀酸钠,Hydrocortisone Sodium Succinate For Injection,mg,,steroid,,,systemic corticosteroid,high,,
+注射用氨磷汀,Amifostine For Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用氨苄西林钠舒巴坦钠,Ampicillin Sodium and Sulbactam Sodium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用水溶性维生素,Water-soluble Vitamin for Injection,bottle; ml; tube,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用环磷酰胺,Cyclophosphamide for Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用生长抑素,Somatostatin For Injection,mg,,none,,,endocrine,high,,
+注射用甲氨蝶呤,Methotrexate for Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用甲泼尼龙琥珀酸钠,Methylprednisolone Sodium Succinate for Injection,g; mg,,steroid,,,systemic corticosteroid,high,,
+注射用甲硝唑磷酸二钠,Metronidazole Disodium Phosphate for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用甲磺酸酚妥拉明,Phentolamine Mesylate for Injection,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+注射用白眉蛇毒血凝酶,Hemocoagulase For Injection,KU; ku,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用盐酸万古霉素,Vancomycin Hydrochloride for Intra Venous,g; mg,,antibiotic,,,antibacterial,high,,
+注射用盐酸吡柔比星,Pirarubicin Hydrochloride For Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用盐酸头孢替安,Cefotiam Hydrochloride for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用盐酸头孢甲肟,Cefmenoxime Hydrochloride for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用盐酸瑞芬太尼,Remifentanil Hydrochloride for Injection,mg,,sedative_analgesic,,,sedative/opioid,high,,
+注射用盐酸纳洛酮,Naloxone Hydrochloride For Injection,mg,,none,,,reversal agent,high,,not a group member (could flag sedation events)
+注射用矛头蝮蛇血凝酶,Hemocoagulase Atrox for Injection,u; unit,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用硝普钠,Sodium Nitroprusside for Injection,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+注射用硫酸长春地辛,Vindesine Sulfate for Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用磷酸肌酸钠,Creatine phosphate sodium for injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用维库溴铵,Vecuronium Bromide for Injection,mg,,nmb,,,neuromuscular blocker,high,,
+注射用美罗培南,Meropenem for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用胸腺法新,Thymalfasin for Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用脂溶性维生素,Fat-soluble Vitamins for Injection(I),bottle; tube,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用苯唑西林钠,Oxacillin Sodium for Iniection,g,,antibiotic,,,antibacterial,high,,
+注射用苯巴比妥钠,Phenobarbital Sodium for Injection,g,,aed,,,antiepileptic,high,,
+注射用萘夫西林钠,Nafcillin Sodium For Injection,g,,antibiotic,,,antibacterial,high,,
+注射用赖氨匹林,Lysine Acetylsalicylate for Injection,g,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4)"
+注射用还原型谷胱甘肽钠,Reduced Glutathione Sodium for Injection,g; mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用醋酸卡泊芬净,Caspofungin Acetate for Injection,bottle; mg,,antifungal,,,antifungal,high,"D2 (Vinai, Nov 14, 2026)",systemic antifungal group (D2)
+注射用重组人干扰素α1b,Recombinant Human Interferon α1b for Injection,μg,,antiviral,,,antiviral,medium,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2); interferon alpha-1b (often nebulised) - check
+注射用重组人生长激素,Recombinant Human Growth Hormone for Injection,iu,,none,,,endocrine,high,,
+注射用重组人白介素-11,Recombinant Human Interleukin-11 for Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用阿奇霉素,Azithromycin for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用阿昔洛韦,Aciclovir for Injection,g; mg,,antiviral,,,antiviral,high,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2)
+注射用阿糖胞苷,Cytarabine for Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+注射用阿莫西林钠克拉维酸钾,Amoxicillin Sodium and Clavulanate Potassium for Injection,g,,antibiotic,,,antibacterial,high,,
+注射用青霉素钠,Benzylpenicillin Sodium for Injection,10000iu,,antibiotic,,,antibacterial,high,,
+注射用鼠神经生长因子,Mouse Nerve Growth Factor for Injection,μg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+浓氯化钠注射液,Concentrated Sodium Chloride Injection,ml,,osmotic_conditional,,neuro admitting dx -> osmotherapy; otherwise -> electrolyte_replacement (group D18); sensitivity: all -> osmotherapy,osmotic agent,high,"D3 (Vinai, Nov 14, 2026)","classified by the Layer A primary admitting diagnosis (ADMISSIONS ICD10_CODE_CN, 3-character) against the PENDING neuro ICD-10 set"
+灌肠用水合氯醛粉,Chloral hydrate powder for enema,ml,,sedative_analgesic,,,sedative/opioid,high,,
+灭菌注射用水,Sterile Water Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+炉甘石洗剂,Calamine Lotion,bottle; ml,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+熊去氧胆酸胶囊,Ursodeoxycholic Acid Capsules,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+猪肺磷脂注射液,Poractant Alfa Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+环孢素口服液,Cyclosporin Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+环孢素注射液,Ciclosporin Injection,g; mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+环孢素软胶囊,Ciclosporin Soft Capsules,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+玻璃酸钠滴眼液,Sodium Hyaluronate Eye Drops,drop,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+甘油果糖氯化钠注射液,Glycerol Fructose and Sodium Chloride Injection,ml,,osmotic_conditional,,neuro admitting dx -> osmotherapy; otherwise -> diuretic; sensitivity: all -> osmotherapy,osmotic agent,high,"D3 (Vinai, Nov 14, 2026)","classified by the Layer A primary admitting diagnosis (ADMISSIONS ICD10_CODE_CN, 3-character) against the PENDING neuro ICD-10 set"
+甘油磷酸钠注射液,Sodium Glycerophosphate Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+生理氯化钠溶液,Sodium Chloride Physiological Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+甲泼尼龙片,Methylprednisolone Tablets,mg,,steroid,,,systemic corticosteroid,high,,
+甲钴胺注射液,Mecobalamin Injection,mg; μg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+甲钴胺片,Mecobalamin Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+盐酸丙卡特罗口服溶液,Procaterol Hydrochloride Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+盐酸丙美卡因滴眼液,Proparacaine Hydrochloride Eye Drops,drop,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+盐酸利多卡因注射液,Lidocaine Hydrochloride Injection,ml; tube,,none,,,local anaesthetic/antiarrhythmic,medium,,
+盐酸右美托咪定注射液,Dexmedetomidine Hydrochloride Injection,μg,,sedative_analgesic,,,sedative/opioid,high,,
+盐酸吗啡注射液,Morphine Hydrachloride Injection,mg,,sedative_analgesic,,,sedative/opioid,high,,
+盐酸哌替啶注射液,Pethidine Hydrochloride Injection,mg,,sedative_analgesic,,,sedative/opioid,high,,
+盐酸多巴胺注射液,Dopamine Hydrochloride Injection,mg,,vasoactive,vasopressor,,vasoactive,high,"D1 (Vinai, Nov 14, 2026)",one vasoactive group: exposure flag + count of concurrently active agents (no infusion rates); the vasopressor/inotrope split is a sensitivity analysis only
+盐酸多巴酚丁胺注射液,Dobutamine Hydrochloride Injection,mg; tube,,vasoactive,inotrope,,vasoactive,high,"D1 (Vinai, Nov 14, 2026)",one vasoactive group: exposure flag + count of concurrently active agents (no infusion rates); the vasopressor/inotrope split is a sensitivity analysis only
+盐酸异丙嗪注射液,Promethazine Hydrochloride Injection,mg,,antiemetic,,,antiemetic,high,"D4 (Vinai, Nov 14, 2026); D16 (Vinai, Nov 14, 2026)","antiemetic group (D4); antiemetic only, no sedation rule for pethidine co-administration (D16)"
+盐酸异丙嗪片,Promethazine Hydrochloride Tablets,mg,,antiemetic,,,antiemetic,high,"D4 (Vinai, Nov 14, 2026); D16 (Vinai, Nov 14, 2026)","antiemetic group (D4); antiemetic only, no sedation rule for pethidine co-administration (D16)"
+盐酸异丙肾上腺素注射液,Isoprenaline Hydrochloride Injection,mg,,vasoactive,inotrope,,vasoactive,high,"D1 (Vinai, Nov 14, 2026)",one vasoactive group: exposure flag + count of concurrently active agents (no infusion rates); the vasopressor/inotrope split is a sensitivity analysis only
+盐酸昂丹司琼注射液,Ondansetron Hydrochloride Injection,mg,,antiemetic,,,antiemetic,high,"D4 (Vinai, Nov 14, 2026)",antiemetic group (D4)
+盐酸普罗帕酮注射液,Propafenone Hydrochloride Injection,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+盐酸普罗帕酮片,Propafenone Hydrochloride Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+盐酸普萘洛尔片,Propranolol Hydrochloride Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+盐酸曲马多注射液,Tramadol Hydrochloride Injection,mg,,sedative_analgesic,,,sedative/opioid,high,,
+盐酸氨溴索口服溶液,Ambroxol Hydrochloride Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+盐酸氨溴索注射液,Ambroxol Hydrochloride Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+盐酸氨溴索葡萄糖注射液,Ambroxol Hydrochloride and Glucose Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+盐酸氯丙嗪注射液,Chlorpromazine Hydrochloride Injection,mg,,antiemetic,,,antiemetic,high,"D4 (Vinai, Nov 14, 2026); D16 (Vinai, Nov 14, 2026)","antiemetic group (D4); antiemetic only, no sedation rule for pethidine co-administration (D16)"
+盐酸氯胺酮注射液,Ketamine Hydrochloride Injection,mg,,sedative_analgesic,,,sedative/opioid,high,,
+盐酸消旋山莨菪碱注射液,Raceanisodamine Hydrochloride Injection,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+盐酸甲氧氯普胺注射液,Metoclopramide Dihydrochloride Injection,mg,,antiemetic,,,antiemetic,high,"D4 (Vinai, Nov 14, 2026)",antiemetic group (D4)
+盐酸精氨酸注射液,Arginine Hydrochloride Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+盐酸纳洛酮注射液,Naloxone Hydrochloride Injection,mg,,none,,,reversal agent,high,,not a group member (could flag sedation events)
+盐酸肾上腺素注射液,Adrenaline Hydrochlaride Injection,mg,,vasoactive,vasopressor,,vasoactive,high,"D1 (Vinai, Nov 14, 2026)",one vasoactive group: exposure flag + count of concurrently active agents (no infusion rates); the vasopressor/inotrope split is a sensitivity analysis only
+盐酸胺碘酮注射液,Amiodarone Hydrochloride injection,g; mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+盐酸胺碘酮片,Amiodarone Hydrochloride Tablets,g,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+破伤风抗毒素注射液,Tetanus Antitoxin Injection,iu; u,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+硝苯地平片,Nifedipine Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+硝西泮片,Nitrazepam Tablets,mg,,aed,,,"benzodiazepine (oral, antiepileptic use)",high,"D5 (Vinai, Nov 14, 2026)",AED (D5)
+硝酸甘油注射液,Nitroglycerin Injection,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+硫酸特布他林雾化液,Terbutaline Sulphate Solution for Nebulization,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+硫酸镁粉,Magnesium Sulfate Powder,g,,none,,,other,medium,,not electrolyte replacement: oral magnesium sulfate powder is a laxative / topical compress (D18 review)
+硫酸阿托品注射液,Atropine Sulfate Injection,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+硫酸鱼精蛋白注射液,Protamine Sulfate Injection,mg; tube,,none,,,anticoagulant/thrombolytic,high,,
+碘佛醇注射液,Ioversol Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+碘普罗胺注射液,Iopromide Injection,bottle; ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+碘海醇注射液,lohexol lnjectlon,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+碳酸钙D3咀嚼片,Calcium Carbonate and Vitamin D3 Chewable Tablets,g,,electrolyte_replacement,,,electrolyte replacement,medium,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18); oral calcium/vitamin D supplement
+磷酸二氢钠,Sodium Dihydrogen Phosphate,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+磷酸奥司他韦胶囊,Oseltamivir Phosphate Capsules,mg,,antiviral,,,antiviral,high,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2)
+磷酸奥司他韦颗粒,Oseltamivir Phosphate Granules,mg,,antiviral,,,antiviral,high,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2)
+米力农注射液,Milrinone Injection,mg,,vasoactive,inotrope,,vasoactive,high,"D1 (Vinai, Nov 14, 2026)",one vasoactive group: exposure flag + count of concurrently active agents (no infusion rates); the vasopressor/inotrope split is a sensitivity analysis only
+糠酸莫米松乳膏,Momeiasone Furoate Cream,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+红霉素眼膏,Erythromycin Eye Ointment,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+红霉素软膏,Erythromycin Ointment,cm,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+维生素B1注射液,Vitamin B1 Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+维生素B1片,Vitamin B Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+维生素B6注射液,Vitamin B6 Injection,g; mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+维生素B6片,Vitamin B6 Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+维生素C注射液,Vitamin C Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+维生素D滴剂(胶囊型),Vitamin D Drops(capsule),iu,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+维生素E软胶囊,Vitamin E Soft Capsules,g; mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+维生素K1注射液,Vitamin K1 Injection,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+羟乙基淀粉200/0.5氯化钠注射液,Hydroxyethyl Starch 200/0.5 and Sodium Chloride Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+聚维酮碘溶液,Povidone lodine Solution,bottle; ml,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+肝素钠乳膏,Heparin Sodium Cream,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+肝素钠注射液,Heparin Sodium Injection,tube; u,,none,,,anticoagulant/thrombolytic,high,,
+肺力咳合剂,Feilike Heji,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+胎盘多肽注射液,Placenta Polypeptide Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+胰岛素注射液,Insulin Injection,iu; u; unit,,none,,,endocrine,high,,
+脂溶性维生素注射液Ⅱ,Fat-Soluble Vitamin Injection(Ⅱ),ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+脑苷肌肽注射液,Cattle Encephalon Glycoside and Ignotin Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+芙朴感冒颗粒,Fupo Ganmao Keli,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+苯巴比妥片,Phenobarbital Tablets,mg,,aed,,,antiepileptic,high,,
+苯巴比妥钠注射液,Phenobarbital Sodium Injection,g; tube,,aed,,,antiepileptic,high,,
+苯扎氯铵溶液,Benzalkonium Chloride Solut ion,bottle; ml,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+苯扎氯铵贴,Benzalkonium Chloride Patches,,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+苯磺酸氨氯地平片,Amlodipine Besylate Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+茵栀黄口服液,Yinzhihuang oral liquid,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+莫匹罗星软膏,Mupirocin Ointment,cm; tube,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+葡萄糖酸钙口服溶液,Calcium Gluconate Oral Solution,ml,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18)
+葡萄糖酸锌颗粒,Zinc Gluconate Granules,bag; g; mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+蒙脱石散剂,Montmorillonite Powder,bag; g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+蛋白琥珀酸铁口服溶液,lron Proteinsuccinylate Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+螺内酯片,Spironolactone Tablets,mg,,diuretic,,,diuretic,high,,
+西咪替丁注射液,Cimetidine Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+赖氨酸硫酸锌口服溶液,Zinc Lysine Sulfate Oral Solution,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+辅酶Q10片,Ubidecarenone Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+过氧化氢溶液,Hydrogen Peroxide Solution,ml,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+那屈肝素钙注射液,Nadroparin Calcium,ml,,none,,,anticoagulant/thrombolytic,high,,
+酚磺乙胺注射液,Etamsylate Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+酪酸梭菌二联活菌散,"Combined Clostridium Butyricum and Bifidobacterium Powders, Live",mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+酪酸梭菌活菌散剂,"Clostridium butyricum Powder,Live",g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+醋酸去氨加压素片,Desmopressin Acetate Tablets,mg,,none,,,endocrine,high,,
+醋酸地塞米松片,Dexamethasone Acetate Tablets,mg,,steroid,,,systemic corticosteroid,high,,
+醋酸泼尼松片,Prednisone Acetate Tablets,mg,,steroid,,,systemic corticosteroid,high,,
+醋酸钙颗粒,Calcium Acetate Granules,bag; g,,none,,,other,medium,,not electrolyte replacement: calcium acetate is a phosphate binder (D18 review)
+重组人促红素注射液(CHO细胞),Recombinant Human Erythropoietin Injection(CHO),iu,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+重组人粒细胞刺激因子注射剂,Recombinant Human Granulocyte Colony-stimulating Factor Injection,μg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+重组人粒细胞刺激因子注射液,Recombinant Human Granulocyte Colony-stimulating Factor Injection,μg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+重组人血小板生成素注射液,Recombinant HumanThrombopoietin Injection,iu; u,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+重组人表皮生长因子凝胶,Recombinant Human Epidermal Growth Factor Gel,g,,none,,,topical/local,high,,"topical, antiseptic or local preparation"
+重酒石酸去甲肾上腺素注射液,Norepinephrine Bitartrate Injection,mg,,vasoactive,vasopressor,,vasoactive,high,"D1 (Vinai, Nov 14, 2026)",one vasoactive group: exposure flag + count of concurrently active agents (no infusion rates); the vasopressor/inotrope split is a sensitivity analysis only
+钆双胺注射液,Gadodiamide Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+钆喷酸葡胺注射液,Gadopentetate Dimeglumine Injection,ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+门冬氨酸钾镁注射液,Potassium Aspartate and Magnesium Aspartate Injection,ml,,electrolyte_replacement,,,electrolyte replacement,high,"D18 (Vinai, Nov 14, 2026)",electrolyte_replacement group (D18)
+阿司匹林肠溶片,Aspirin Enteric-Coated Tablets,mg,,non_opioid_analgesic,,,non-opioid analgesic/antipyretic,high,"D4 (Vinai, Nov 14, 2026)","non-opioid analgesic/antipyretic group, out of sedatives (D4); aspirin use may be antiplatelet (e.g., Kawasaki)"
+阿奇霉素干混悬剂,Azithromycin for Suspension,g,,antibiotic,,,antibacterial,high,,
+阿昔洛韦注射液,Aciclovir for Injection,g,,antiviral,,,antiviral,high,"D2 (Vinai, Nov 14, 2026)",antiviral group (D2)
+阿魏酸哌嗪片,Piperazine Ferulate Tablets,mg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+静脉注射用人免疫球蛋白,Human Immumoglobulin for Intravenous Injection,g,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+马来酸依那普利片,Enalapril Maleate Tablets,mg,,none,,,other cardiovascular,high,,not vasoactive-support group; vasodilators/antiarrhythmics
+骨化三醇胶丸,Calcitriol Soft Capsules,μg,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"
+高三尖杉酯碱注射液,Homoharringtonine Injection,mg; ml,,none,,,other,medium,,"no group (fluids, nutrition, electrolytes, GI, respiratory, haematology, oncology or other)"

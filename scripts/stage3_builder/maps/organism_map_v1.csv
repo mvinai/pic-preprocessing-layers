@@ -1,0 +1,102 @@
+org_itemid,org_name,train_encounters,canonical_name,category,contaminant_rule,confidence,decision,notes
+,,,(blank organism),blank (no organism recorded),,medium,,"Blank ORG_ITEMID and ORG_NAME (1,057 train encounters): most likely a culture or smear with no organism entered (negative, or result not filed). Not a 'no growth' code - those exist separately. Treat as 'no organism recorded' for M1 ordered flags; do not count as negative without checking the specimen/test type."
+MIC1008,正常菌群生长（真菌未检出),,Normal flora; no fungi,normal flora / mixed,not a pathogen,high,,
+MIC1008,正常菌群生长（致病嗜血杆菌、真菌未检出),,Normal flora; no pathogenic Haemophilus or fungi,normal flora / mixed,not a pathogen,high,,
+MIC108,大肠埃希菌,,Escherichia coli,Gram-negative bacillus (Enterobacterales),,high,,
+MIC1132,肠球菌属：优势生长,,Enterococcus spp. (predominant growth),Gram-positive coccus,,medium,,semi-quantitative description
+MIC1138,G-球菌，形似奈瑟菌,,"Gram-negative cocci, Neisseria-like (smear)",smear finding (not an isolate),,medium,,
+MIC1189,非发酵菌少量,,"Non-fermenters, scant",normal flora / mixed,"respiratory: low-count, likely colonizer",medium,,semi-quantitative
+MIC1229,无肺炎支原体(MP)生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无肺炎支原体(MP)生长'
+MIC1258,肠杆菌少量,,"Enterobacterales, scant",normal flora / mixed,"respiratory: low-count, likely colonizer",medium,,semi-quantitative
+MIC153,流感嗜血杆菌,,Haemophilus influenzae,Gram-negative coccobacillus,,high,,
+MIC1677,涂片：上皮细胞>10个/低倍镜，白细胞<25个/低倍镜,,Sputum smear quality (epithelial cells / WBC per LPF),specimen quality (not an organism),,high,,"specimen adequacy grading (Bartlett-type), not an organism"
+MIC1677,痰涂片：上皮细胞>10个/低倍镜，白细胞<25个/低倍镜,,Sputum smear quality (epithelial cells / WBC per LPF),specimen quality (not an organism),,high,,"specimen adequacy grading (Bartlett-type), not an organism"
+MIC1692,痰涂片：上皮细胞<10个/低倍镜，白细胞>25个/低倍镜,,Sputum smear quality (epithelial cells / WBC per LPF),specimen quality (not an organism),,high,,"specimen adequacy grading (Bartlett-type), not an organism"
+MIC1695,革兰阴性杆菌（G-b）,,Gram-negative bacilli (smear/preliminary),smear finding (not an isolate),,medium,,preliminary report; not a final identification
+MIC1700,革兰阳性杆菌（G+b）,,Gram-positive bacilli (smear/preliminary),smear finding (not an isolate),,medium,,preliminary report
+MIC1701,真菌,,"Fungus, not identified",Fungus (unspeciated),,medium,,
+MIC1703,革兰阳性球菌（G+C）,,Gram-positive cocci (smear/preliminary),smear finding (not an isolate),,medium,,preliminary report
+MIC1710,杂菌生长,,Mixed growth,normal flora / mixed,contaminated / mixed - not a pathogen,high,,
+MIC176,肺炎克雷伯菌,,Klebsiella pneumoniae,Gram-negative bacillus (Enterobacterales),,high,,
+MIC2076,分纯中...,,Isolate being purified (pending),pending/indeterminate,,high,,interim report; final result may be in a later row
+MIC2117,涂片：上皮细胞<10个/低倍镜，白细胞<25个/低倍镜,,Sputum smear quality (epithelial cells / WBC per LPF),specimen quality (not an organism),,high,,"specimen adequacy grading (Bartlett-type), not an organism"
+MIC2117,痰涂片：上皮细胞<10个/低倍镜，白细胞<25个/低倍镜,,Sputum smear quality (epithelial cells / WBC per LPF),specimen quality (not an organism),,high,,"specimen adequacy grading (Bartlett-type), not an organism"
+MIC2152,纹带棒状杆菌,,Corynebacterium striatum,Gram-positive bacillus,Corynebacterium: common commensal rule,high,,
+MIC2287,未培养出致病嗜血杆菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未培养出致病嗜血杆菌'
+MIC2291,未培养出细菌、真菌、致病嗜血杆菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未培养出细菌、真菌、致病嗜血杆菌'
+MIC2293,无细菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无细菌生长'
+MIC2370,无细菌、真菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无细菌、真菌生长'
+MIC2408,培养5天无真菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '培养5天无真菌生长'
+MIC250,铜绿假单胞菌,,Pseudomonas aeruginosa,Gram-negative bacillus (non-fermenter),,high,,
+MIC251,洋葱伯克霍尔德菌（洋葱假单胞）,,Burkholderia cepacia,Gram-negative bacillus (non-fermenter),,high,,
+MIC254,嗜麦芽窄食单胞菌（黄单胞菌）,,Stenotrophomonas maltophilia,Gram-negative bacillus (non-fermenter),,high,,
+MIC2609,未找到隐球菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未找到隐球菌'
+MIC2612,近平滑念珠菌,,Candida parapsilosis,Fungus (yeast),,high,,
+MIC2620,白色念珠菌,,Candida albicans,Fungus (yeast),,high,,same species as 白假丝酵母 (MIC362)
+MIC2622,光滑念珠菌,,Candida glabrata,Fungus (yeast),,high,,
+MIC2636,热带念珠菌,,Candida tropicalis,Fungus (yeast),,high,,
+MIC2764,真菌,,"Fungus, not identified",Fungus (unspeciated),,medium,,
+MIC291,粘质沙雷菌,,Serratia marcescens,Gram-negative bacillus (Enterobacterales),,high,,
+MIC2957,阴沟肠杆菌复合群,,Enterobacter cloacae complex,Gram-negative bacillus (Enterobacterales),,high,,
+MIC3038,缓症链球菌群,,Streptococcus mitis group,Gram-positive coccus (viridans),viridans streptococci: common commensal rule in blood,high,,
+MIC304,金黄色葡萄球菌,,Staphylococcus aureus,Gram-positive coccus,,high,,"MRSA status from susceptibility data, not this map"
+MIC305,头状葡萄球菌,,Staphylococcus capitis,Gram-positive coccus (CoNS),CoNS: common commensal rule,high,,
+MIC308,表皮葡萄球菌,,Staphylococcus epidermidis,Gram-positive coccus (CoNS),CoNS: common commensal - blood culture counts only if >=2 sets positive (or 1 set + central line + treated),high,,
+MIC309,溶血葡萄球菌,,Staphylococcus haemolyticus,Gram-positive coccus (CoNS),CoNS: common commensal rule,high,,
+MIC310,人葡萄球菌,,Staphylococcus hominis,Gram-positive coccus (CoNS),CoNS: common commensal rule,high,,
+MIC318,鲍曼不动杆菌,,Acinetobacter baumannii,Gram-negative bacillus (non-fermenter),,high,,
+MIC318,鲍曼不动杆菌复合群,,Acinetobacter baumannii complex,Gram-negative bacillus (non-fermenter),,high,,
+MIC322,沃氏葡萄球菌,,Staphylococcus warneri,Gram-positive coccus (CoNS),CoNS: common commensal rule,high,,
+MIC343,屎肠球菌(D群）,,Enterococcus faecium,Gram-positive coccus,,high,,
+MIC344,粪肠球菌(D群),,Enterococcus faecalis,Gram-positive coccus,,high,,
+MIC350,缓症链球菌,,Streptococcus mitis,Gram-positive coccus (viridans),viridans streptococci: common commensal rule in blood,high,,
+MIC354,肺炎链球菌,,Streptococcus pneumoniae,Gram-positive coccus,,high,,
+MIC362,白假丝酵母,,Candida albicans,Fungus (yeast),,high,,
+MIC387,草绿色链球菌,,Viridans streptococci,Gram-positive coccus (viridans),viridans streptococci: common commensal rule in blood; respiratory normal flora,high,,
+MIC442,卡他莫拉菌,,Moraxella catarrhalis,Gram-negative coccus,respiratory: possible colonizer,high,,
+MIC450,光滑假丝酵母,,Candida glabrata,Fungus (yeast),,high,,
+MIC453,克柔假丝酵母,,Candida krusei,Fungus (yeast),,high,,
+MIC458,近平滑假丝酵母菌,,Candida parapsilosis,Fungus (yeast),,high,,
+MIC463,热带假丝酵母菌,,Candida tropicalis,Fungus (yeast),,high,,
+MIC574,找到G-杆菌,,Gram-negative bacilli seen (smear),smear finding (not an isolate),,high,,
+MIC575,未找到抗酸杆菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未找到抗酸杆菌'
+MIC578,找到G+球菌,,Gram-positive cocci seen (smear),smear finding (not an isolate),,high,,
+MIC584,找到G+杆菌,,Gram-positive bacilli seen (smear),smear finding (not an isolate),,high,,
+MIC585,涂片未找到细菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '涂片未找到细菌'
+MIC593,找到G+球菌,,Gram-positive cocci seen (smear),smear finding (not an isolate),,high,,
+MIC593,找到G-杆菌,,Gram-negative bacilli seen (smear),smear finding (not an isolate),,high,,
+MIC593,未找到真菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未找到真菌'
+MIC593,涂片未找到细菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '涂片未找到细菌'
+MIC593,涂片：上皮细胞<10个/低倍镜，白细胞<25个/低倍镜,,Sputum smear quality (epithelial cells / WBC per LPF),specimen quality (not an organism),,high,,"specimen adequacy grading (Bartlett-type), not an organism"
+MIC627,未培养出致病嗜血杆菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未培养出致病嗜血杆菌'
+MIC629,培养5天无细菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '培养5天无细菌生长'
+MIC631,培养无致病菌、真菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '培养无致病菌、真菌生长'
+MIC637,未检出O1群、O139群霍乱弧菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未检出O1群、O139群霍乱弧菌'
+MIC638,正常菌群生长,,Normal flora,normal flora / mixed,not a pathogen,high,,
+MIC645,无细菌、真菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无细菌、真菌生长'
+MIC645,无细菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无细菌生长'
+MIC645,无菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无菌生长'
+MIC646,未培养出O157:h7,,No growth / not found,negative/no growth,,high,,negative result phrased as '未培养出O157:h7'
+MIC648,卡他莫拉菌,,Moraxella catarrhalis,Gram-negative coccus,respiratory: possible colonizer,high,,
+MIC648,无细菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无细菌生长'
+MIC648,未培养出真菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未培养出真菌'
+MIC648,未培养出致病嗜血杆菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未培养出致病嗜血杆菌'
+MIC648,肠杆菌少量,,"Enterobacterales, scant",normal flora / mixed,"respiratory: low-count, likely colonizer",medium,,semi-quantitative
+MIC648,肺炎克雷伯菌,,Klebsiella pneumoniae,Gram-negative bacillus (Enterobacterales),,high,,
+MIC648,肺炎链球菌,,Streptococcus pneumoniae,Gram-positive coccus,,high,,
+MIC648,表皮葡萄球菌,,Staphylococcus epidermidis,Gram-positive coccus (CoNS),CoNS: common commensal - blood culture counts only if >=2 sets positive (or 1 set + central line + treated),high,,
+MIC648,铜绿假单胞菌,,Pseudomonas aeruginosa,Gram-negative bacillus (non-fermenter),,high,,
+MIC648,非发酵菌少量,,"Non-fermenters, scant",normal flora / mixed,"respiratory: low-count, likely colonizer",medium,,semi-quantitative
+MIC648,鲍曼不动杆菌复合群,,Acinetobacter baumannii complex,Gram-negative bacillus (non-fermenter),,high,,
+MIC650,无致病菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无致病菌生长'
+MIC651,未培养出厌氧菌,,No growth / not found,negative/no growth,,high,,negative result phrased as '未培养出厌氧菌'
+MIC663,找到真菌孢子,,Fungal spores seen (smear),smear finding (not an isolate),,high,,
+MIC672,棒状杆菌,,Corynebacterium spp.,Gram-positive bacillus,Corynebacterium: common commensal rule,high,,
+MIC746,草绿色链球菌,,Viridans streptococci,Gram-positive coccus (viridans),viridans streptococci: common commensal rule in blood; respiratory normal flora,high,,
+MIC752,奈瑟菌属,,Neisseria spp.,Gram-negative coccus,commensal (respiratory normal flora),medium,,non-meningococcal Neisseria assumed
+MIC85,产气肠杆菌,,Enterobacter aerogenes (Klebsiella aerogenes),Gram-negative bacillus (Enterobacterales),,high,,
+MIC94,阴沟肠杆菌,,Enterobacter cloacae,Gram-negative bacillus (Enterobacterales),,high,,
+MIC941,培养5天无细菌、真菌生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '培养5天无细菌、真菌生长'
+MIC976,无解脲和人型支原体生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无解脲和人型支原体生长'
+MIC982,无人型支原体生长,,No growth / not found,negative/no growth,,high,,negative result phrased as '无人型支原体生长'
+MIC985,解脲脲原体,,Ureaplasma urealyticum,Atypical (Mollicutes),,high,,
