@@ -7,13 +7,12 @@ repository-code: "https://github.com/mvinai/pic-preprocessing-layers"
 authors:
   - family-names: Modem
     given-names: Vinai
-    role: "Principal investigator"
-  - name: Habib
-    role: "Contributor"
-  - name: Vinay
-    role: "Contributor"
-  - name: Yashwant
-    role: "Contributor"
+  - family-names: Fipa
+    given-names: Habib
+  - family-names: Ilapuram
+    given-names: Vinay Datta
+  - family-names: Bunga
+    given-names: Yashwant
 keywords:
   - paediatric intensive care
   - PIC
